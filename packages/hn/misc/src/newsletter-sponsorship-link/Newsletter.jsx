@@ -1,9 +1,11 @@
 import React from 'react';
 
 import { styles } from './styles';
+
 import { config } from './config';
 
-//TODO moveout contact link and a message to the outside
+// TODO: moveout contact link and a message to the outside
+// should be easy to do
 
 const NewsletterSponsorshipLink = () => (
   <div style={styles.center}>
