@@ -15,3 +15,4 @@ compare with later:
 explore things here: https://gist.github.com/vouchful
 
 
+create simple component for links.

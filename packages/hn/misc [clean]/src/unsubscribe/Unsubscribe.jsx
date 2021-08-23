@@ -1,9 +1,15 @@
 import React from 'react';
+
 import { styles } from './styles';
 
-const Unsubscribe = ({ hrefUnsub }) => (
-  <a href={hrefUnsub} style={styles.unsubscribe} data-testid="unsubscribeTest">
-    unsubscribe
+// TODO: try prop-types pkg for component attributes
+
+const Unsubscribe = ({ hrefUnsub, label }) => (
+  <a 
+    href={hrefUnsub} 
+    style={styles.unsubscribe} 
+    data-testid="unsubscribeTest">
+      {label}    
   </a>
 );
 
