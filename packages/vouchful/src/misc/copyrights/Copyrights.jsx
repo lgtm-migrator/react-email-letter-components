@@ -1,3 +1,13 @@
+import React from 'react';
+
+const  = ({}) => (
+  <>
+   
+  </>
+);
+
+export default ;
+
 <td align="left" class="body text-secondary">
   © Company, Inc. All Rights Reserved.
   <br>
