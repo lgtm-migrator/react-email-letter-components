@@ -1,11 +1,12 @@
-<a href="https://www.example.com" class="body text-primary">Unsubscribe</a>
-
 import React from 'react';
 
-const  = ({}) => (
+// TODO: add condition for rendering different labels
+const UnsubscribeLink = ({href, label}) => (
   <>
-   
+   <a href="{href}" class="body text-primary">
+       Unsubscribe
+    </a>
   </>
 );
 
-export default ;
+export default UnsubscribeLink;
