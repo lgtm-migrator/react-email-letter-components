@@ -16,3 +16,9 @@ explore things here: https://gist.github.com/vouchful
 
 
 create simple component for links.
+
+explore later^ https://github.com/jaredpalmer/react-email-workflow
+
+explore: https://github.com/Roilan/mailchimpify
+
+https://github.com/lang-ai/react-emails
