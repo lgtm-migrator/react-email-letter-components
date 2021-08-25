@@ -22,3 +22,5 @@ explore later^ https://github.com/jaredpalmer/react-email-workflow
 explore: https://github.com/Roilan/mailchimpify
 
 https://github.com/lang-ai/react-emails
+
+https://github.com/mjmlio/mjml
