@@ -1,9 +1,9 @@
 import React from 'react';
 
-const  = ({}) => (
+const Content = ({}) => (
   <>
    
   </>
 );
 
-export default ;
+export default Content;
