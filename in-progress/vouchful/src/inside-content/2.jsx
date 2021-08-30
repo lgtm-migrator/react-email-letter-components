@@ -1,3 +1,3 @@
 <tr>
-                        <td class="spacer-sm"></td>
-                      </tr>       
+  <td class="spacer-sm"></td>
+</tr>       
