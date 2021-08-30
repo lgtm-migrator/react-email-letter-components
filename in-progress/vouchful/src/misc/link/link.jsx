@@ -12,7 +12,3 @@ const Link = ({}) => (
 
 export default Link;
 // <!-- End Link -->
-
-
-
- 
