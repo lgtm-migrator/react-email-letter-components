@@ -1,3 +1,13 @@
+import React from 'react';
+
+const IIImage = ({}) => (
+  <>
+   
+  </>
+);
+
+export default IIImage;
+
 <!-- Start Image -->
 <tr>
   <td>

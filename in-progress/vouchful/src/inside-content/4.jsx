@@ -1,5 +1,12 @@
-<!-- Start Divider -->
-  <tr>
+import React from 'react';
+//-- Start Divider --
+const Divider = ({}) => (
+  <>
+   <tr>
     <td class="divider"></td>
   </tr>
-<!-- End Divider -->      
+  </>
+);
+
+export default Divider;
+//-- End Divider --

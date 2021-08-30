@@ -1,3 +1,15 @@
+
+import React from 'react';
+
+const Link = ({}) => (
+  <>
+   
+  </>
+);
+
+export default Link;
+
+
 <!-- Start Link -->
 <tr>
   <td align="left" class="body text-dark-gray">
