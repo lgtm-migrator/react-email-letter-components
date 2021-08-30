@@ -14,19 +14,20 @@ const Content = ({}) => (
 
                       
 
-                      {*3*}                               
+                     {*3*}                               
                      
                       
-                      {*2*}                               
+                     {*2*}                               
 
-                      {*4*}                               
-
-                      {*2*}                               
-  
-                      {*5*} 
-
-                      {*2*} 
+                     {*4*}                               
                       
+                     {*2*}                               
+  
+                     {*5*} 
+
+                     {*2*} 
+                      
+
 
                       <!-- Start Aside Layout -->
                       <tr>
@@ -49,6 +50,8 @@ const Content = ({}) => (
                                 <td align="left" valign="top" width="348" class="column-responsive column-responsive-last">
                                   <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
                                     <tbody>
+
+
                                       <!-- Start Text -->
                                       <tr>
                                         <td align="left" class="heading text-dark-gray">
@@ -56,6 +59,8 @@ const Content = ({}) => (
                                         </td>
                                       </tr>
                                       <!-- End Text --> 
+
+
                                       <!-- Start Text -->
                                       <tr>
                                         <td align="left" class="body text-secondary">
@@ -63,6 +68,7 @@ const Content = ({}) => (
                                         </td>
                                       </tr>
                                       <!-- End Text -->  
+
 
                                       {*2*}  
 
@@ -83,69 +89,24 @@ const Content = ({}) => (
                         </td>
                       </tr>
                       <!-- End Aside Layout -->    
-
                       
+
+
                       {*2*}   
-                      
+
+
+
                       <!-- Start Aside Layout -->
-                      <tr>
-                        <td>
-                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
-                            <tbody>
-                              <tr>
-                                <td align="left" valign="top" width="162" class="column-responsive">
-                                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
-                                    <tbody>
 
-                                      {*image*}
-                                      
+                      {*AsideLayout*}
 
-
-                                    </tbody>
-                                  </table>
-                                </td>
-                                <td width="24" class="column-responsive-gutter"></td>
-                                <td align="left" valign="top" width="348" class="column-responsive column-responsive-last">
-                                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
-                                    <tbody>
-
-
-                                      <!-- Start Text -->
-                                      <tr>
-                                        <td align="left" class="heading text-dark-gray">
-                                          Phasellus feugiat nisi ac sapien 
-                                        </td>
-                                      </tr>
-                                      <!-- End Text --> 
-
-
-                                      <!-- Start Text -->
-                                      <tr>
-                                        <td align="left" class="body text-secondary">
-                                          Sed vestibulum ultrices felis, nec pretium elit porttitor eu. Vestibulum et dolor tellus. Pellentesque vitae consectetur dui.
-                                        </td>
-                                      </tr>
-                                      <!-- End Text -->  
-
-
-                                      {*2*} 
-
-
-                                      {*link*}
-
-
-                                    </tbody>
-                                  </table>
-                                </td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </td>
-                      </tr>
                       <!-- End Aside Layout -->         
-                      <tr>
-                        <td class="spacer-md"></td>
-                      </tr>  
+                      
+
+
+                      {*2*}   
+
+
                       <!-- Start Aside Layout -->
                       <tr>
                         <td>
@@ -186,6 +147,7 @@ const Content = ({}) => (
                                       </tr>
                                       <!-- End Text -->  
 
+
                                       {*2*} 
 
                                      
@@ -198,7 +160,9 @@ const Content = ({}) => (
                           </table>
                         </td>
                       </tr>
-                      <!-- End Aside Layout -->                          
+                      <!-- End Aside Layout -->     
+
+
                     </tbody>
                   </table>
                 </td>
