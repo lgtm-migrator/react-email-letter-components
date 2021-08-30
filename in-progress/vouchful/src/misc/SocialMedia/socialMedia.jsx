@@ -1,12 +1,12 @@
 import React from 'react';
 
-const  = ({}) => (
+const SocialMedia = ({}) => (
   <>
    
   </>
 );
 
-export default ;
+export default SocialMedia;
 
 
 <td align="left">

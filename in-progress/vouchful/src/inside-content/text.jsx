@@ -1,18 +1,17 @@
 import React from 'react';
-
+// <!-- Start Text -->
 const Text = ({}) => (
   <>
-   
-  </>
-);
-
-export default Text;
-
-
-<!-- Start Text -->
-<tr>
+   <tr>
   <td align="left" class="body text-secondary">
     Suspendisse rutrum elit tortor, et volutpat nisl pellentesque eu. Nullam nec luctus sapien, vel dapibus sem. Nam nisi diam.
   </td>
 </tr>
-<!-- End Text -->  
+
+  </>
+);
+
+export default Text;
+// <!-- End Text -->  
+
+

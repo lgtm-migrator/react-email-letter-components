@@ -1,17 +1,16 @@
 import React from 'react';
-
+// <!-- Start Text -->
 const HeadingText = ({}) => (
   <>
-   
-  </>
-);
-
-export default HeadingText;
-
-<!-- Start Text -->
-<tr>
+   <tr>
   <td align="left" class="heading text-dark-gray">
     Quisque ut nunc augue
   </td>
 </tr>
-<!-- End Text --> 
+  </>
+);
+
+export default HeadingText;
+// <!-- End Text --> 
+
+

@@ -1,19 +1,18 @@
-
 import React from 'react';
-
+// <!-- Start Link -->
 const Link = ({}) => (
   <>
-   
-  </>
-);
-
-export default Link;
-
-
-<!-- Start Link -->
-<tr>
+   <tr>
   <td align="left" class="body text-dark-gray">
     <a href="https://www.example.com" class="body text-primary">Sed odio</a>
   </td>
 </tr>
-<!-- End Link --> 
+  </>
+);
+
+export default Link;
+// <!-- End Link -->
+
+
+
+ 
