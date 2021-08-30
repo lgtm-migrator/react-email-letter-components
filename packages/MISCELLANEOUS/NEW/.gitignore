@@ -59,3 +59,4 @@ typings/
 
 build/
 yarn.lock
+package-lock.json
