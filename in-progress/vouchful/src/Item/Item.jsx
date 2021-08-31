@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Item = ({}) => (
-  <>
+
     <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
         <tbody>
         <tr>
@@ -10,7 +10,9 @@ const Item = ({}) => (
                     <tbody>                       
                         <tr>
                             <td>
+
                                 <img alt="Image" border="0" src="https://www.vouchful.com/images/email-kit/placeholder-1-3.png" width="162">
+                                    
                             </td>
                         </tr>                        
                     </tbody>
@@ -20,6 +22,7 @@ const Item = ({}) => (
         <td align="left" valign="top" width="348" class="column-responsive column-responsive-last">
             <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
             <tbody>
+
                 <!-- Start Text -->
                 <tr>
                 <td align="left" class="heading text-dark-gray">
@@ -27,6 +30,8 @@ const Item = ({}) => (
                 </td>
                 </tr>
                 <!-- End Text --> 
+
+
                 <!-- Start Text -->
                 <tr>
                 <td align="left" class="body text-secondary">
@@ -34,9 +39,13 @@ const Item = ({}) => (
                 </td>
                 </tr>
                 <!-- End Text -->  
+
+
                 <tr>
                 <td class="spacer-sm"></td>
                 </tr>  
+
+
                 <!-- Start Link -->
                 <tr>
                 <td align="left" class="body text-dark-gray">
@@ -44,15 +53,15 @@ const Item = ({}) => (
                 </td>
                 </tr>
                 <!-- End Link --> 
+
+
             </tbody>
             </table>
         </td>
         </tr>
         </tbody>
     </table>
-  </>
+
 );
 
 export default Item;
-
-

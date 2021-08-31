@@ -1,6 +1,6 @@
 import Content from './content/content.jsx';
 
-import Footer from './footer/footer.jsx';
+import Footer from './FooterLayout/FooterLayout.jsx';
 
 import Header from './header/header.jsx';
 
