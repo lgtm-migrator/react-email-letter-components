@@ -4,6 +4,8 @@ import { styles } from './styles';
 
 import { link1, link2 } from './config';
 
+import { Link } from 'react-emails-components-miscellaneous'; 
+
 const GetPublished = () => (
   <div dir="ltr" style={styles.div}>
     <span style={styles.span1}>

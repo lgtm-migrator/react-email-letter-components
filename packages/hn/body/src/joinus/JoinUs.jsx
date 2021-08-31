@@ -2,6 +2,8 @@ import React from 'react';
 import { styles } from './styles';
 import { link } from './config';
 
+import { Link } from 'react-emails-components-miscellaneous'; 
+
 const JoinUs = () => (
   <div dir="ltr" style={styles.div}>
     <span style={styles.span1}>

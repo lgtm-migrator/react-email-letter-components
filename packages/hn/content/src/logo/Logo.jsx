@@ -3,6 +3,12 @@ import React from 'react';
 import Table from "atherdon-react-markdown-component-body"
 
 
+
+
+import { Logo } from 'react-emails-components-miscellaneous'; 
+
+
+
 import { styles } from './styles';
 import config from './config';
 
