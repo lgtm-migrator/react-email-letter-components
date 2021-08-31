@@ -1,19 +1,17 @@
 import React from 'react';
 
-import { Table } from 'react-emails-components-miscellaneous';
+import { BasicTable } from 'react-emails-components-miscellaneous';
 
 
 // TODO: add styles as props from the outside
-const BasicTable = ({children}) => (
+const BasicTable1 = ({children}) => (
 
-  <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
-    <tbody>
+  <BasicTable>
 
-      {children}
+    {children}
 
-    </tbody>
-  </table>
+  </BasicTable>
 
 );
 
-export default BasicTable;
+export default BasicTable1;
