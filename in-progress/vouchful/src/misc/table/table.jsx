@@ -1,6 +1,7 @@
 import React from 'react';
 
-import { Unsubscribe } from 'react-emails-components-miscellaneous';
+import { Table } from 'react-emails-components-miscellaneous';
+
 
 // TODO: add styles as props from the outside
 const BasicTable = ({children}) => (

@@ -1,6 +1,6 @@
 import React from 'react';
 
-
+import { Logo } from 'react-emails-components-miscellaneous';
 
 const Logo = ({}) => (
   <>
