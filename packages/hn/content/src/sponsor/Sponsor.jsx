@@ -2,6 +2,9 @@ import React from 'react';
 
 import Table from "atherdon-react-markdown-component-body";
 
+import { Link } from 'react-emails-components-miscellaneous'; 
+
+
 import { styles } from './styles';
 
 const Sponsor = ({
@@ -42,11 +45,15 @@ const Sponsor = ({
                 <td valign="top" className="mcnTextContent" style={styles.textContent}>
                   <h1 className="mc-toc-title" style={styles.docTitle}>
                     <br />
+
+
                     <a href={rightHref} style={styles.link}>
                       <strong data-testid="sponsorChildrenTest">
                         {children}
                       </strong>
                     </a>
+
+
                   </h1>
                 </td>
               </tr>
