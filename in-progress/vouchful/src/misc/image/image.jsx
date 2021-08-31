@@ -1,4 +1,8 @@
 import React from 'react';
+
+import { Unsubscribe } from 'react-emails-components-miscellaneous';
+
+
 // <!-- Start Image -->
 const IIImage = ({href}) => (
 

@@ -1,5 +1,8 @@
 import React from 'react';
 
+import { Unsubscribe } from 'react-emails-components-miscellaneous';
+
+
 const SocialMedia = ({}) => (
   <>
    <td align="left">
