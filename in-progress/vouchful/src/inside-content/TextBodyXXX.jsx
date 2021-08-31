@@ -1,6 +1,6 @@
 import React from 'react';
 // <!-- Start Text -->   
-const 333 = ({}) => (
+const TextBodyXXX = ({}) => (
   <>
    <tr>
   <td align="left" class="body text-dark-gray">
@@ -10,5 +10,5 @@ const 333 = ({}) => (
   </>
 );
 
-export default 333;
+export default TextBodyXXX;
 // <!-- End Text -->

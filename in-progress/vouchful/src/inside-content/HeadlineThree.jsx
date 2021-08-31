@@ -1,6 +1,6 @@
 import React from 'react';
 // <!-- Start Text -->
-const Footer = ({}) => (
+const HeadlineThree = ({}) => (
   <>
    <tr>
   <td align="left" class="headline-three text-dark-gray">
@@ -10,5 +10,5 @@ const Footer = ({}) => (
   </>
 );
 
-export default Footer;
+export default HeadlineThree;
 // <!-- End Text --> 
