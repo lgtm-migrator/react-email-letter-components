@@ -1,1 +1,0 @@
-check this thing: https://github.com/btolor/Uber-Newsletter-Email-Template
