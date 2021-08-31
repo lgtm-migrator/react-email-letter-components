@@ -7,6 +7,8 @@ import { config } from './config';
 // TODO: moveout contact link and a message to the outside
 // should be easy to do
 
+import { Link } from 'react-emails-components-miscellaneous';
+
 const NewsletterSponsorshipLink = () => (
   <div style={styles.center}>
     <br />
