@@ -1,6 +1,5 @@
-
+import React from 'react';
 import { ImageLink } from '';
-
 
 const ImageLinkWrapper = ({image, link}) => {
 	<>
@@ -9,4 +8,4 @@ const ImageLinkWrapper = ({image, link}) => {
 	</>
 }
 
-export ;
+export default ImageLinkWrapper;
