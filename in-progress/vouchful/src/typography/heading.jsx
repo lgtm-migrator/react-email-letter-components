@@ -12,5 +12,3 @@ const HeadingText = ({}) => (
 
 export default HeadingText;
 // <!-- End Text --> 
-
-

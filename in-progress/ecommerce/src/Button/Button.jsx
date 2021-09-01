@@ -1,12 +1,7 @@
 import React from 'react';
 
 const xxx = ({}) => (
-  <> </>
-);
-
-export default xxx;
-
-<table border="0" cellpadding="0" cellspacing="0" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+  <table border="0" cellpadding="0" cellspacing="0" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
 <tbody>
   <tr>
     <td style="vertical-align: top; border-radius: 8px; text-align: center; background-color: #1595E7;" valign="top" bgcolor="#1595E7" align="center"> 
@@ -15,4 +10,9 @@ export default xxx;
   </tr>
 </tbody>
 </table>
+);
+
+export default xxx;
+
+
                           
