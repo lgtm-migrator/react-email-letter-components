@@ -1,3 +1,5 @@
+import React from 'react';
+
 <table border="0" cellspacing="0" cellpadding="0" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
                     <tbody>
                       <tr>

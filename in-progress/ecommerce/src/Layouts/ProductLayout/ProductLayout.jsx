@@ -1,1 +1,1 @@
-ProductLayout.jsx
+import React from 'react';

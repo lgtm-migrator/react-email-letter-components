@@ -1,1 +1,1 @@
-Typography.jsx
+import React from 'react';

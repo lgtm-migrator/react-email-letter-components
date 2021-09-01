@@ -1,1 +1,1 @@
-MiscLayout.jsx
+import React from 'react';
