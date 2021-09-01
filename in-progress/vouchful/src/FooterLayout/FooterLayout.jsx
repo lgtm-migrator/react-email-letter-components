@@ -1,6 +1,9 @@
 import React from 'react';
 
-import { Link, Unsubscribe, ImageLink  } from 'react-emails-components-miscellaneous';
+import { 
+  Link, Unsubscribe, 
+  ImageLink, Address
+ } from 'react-emails-components-miscellaneous';
 
 import Spacer from '../inside-content/Spacer';
 import SocialMedia1 from '..'
@@ -23,7 +26,10 @@ const Footer = ({}) => (
 
                           <ImageLink />
                           <a href="https://www.example.com">
-                            <img alt="Icon" border="0" src="https://www.vouchful.com/images/email-kit/placeholder-icon.png" width="28">
+                            <img 
+                                alt="Icon" 
+                                border="0" 
+                                src="https://www.vouchful.com/images/email-kit/placeholder-icon.png" width="28">
                           </a>
 
                         </td>
@@ -40,18 +46,14 @@ const Footer = ({}) => (
                         <td valign="top" width="28">
                           
                           <ImageLink />
-                          <a href="https://www.example.com">
-                            <img alt="Icon" border="0" src="https://www.vouchful.com/images/email-kit/placeholder-icon.png" width="28">
-                          </a>
+                          
 
                         </td>
                         <td width="16"></td>
                         <td valign="top" width="28">
 
-                        <ImageLink />
-                          <a href="https://www.example.com">
-                            <img alt="Icon" border="0" src="https://www.vouchful.com/images/email-kit/placeholder-icon.png" width="28">
-                          </a>
+                          <ImageLink />
+                          
 
                         </td>
                       </tr>
@@ -63,6 +65,7 @@ const Footer = ({}) => (
               <Spacer /> 
               
 
+
               <tr>
                 <td align="left" class="body text-secondary">
                   © Company, Inc. All Rights Reserved.
@@ -70,6 +73,7 @@ const Footer = ({}) => (
                   <span class="address">101 King St, San Francisco, CA 94107</span>
                 </td>
               </tr>
+
 
 
               <Spacer />     
@@ -84,5 +88,3 @@ const Footer = ({}) => (
 );
 
 export default Footer;
-
-

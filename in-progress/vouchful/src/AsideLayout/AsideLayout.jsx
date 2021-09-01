@@ -4,7 +4,9 @@ import IIImage from '';
 import 2 from '';
 import HeadingText from '../inside-content/heading';
 import Text from '../inside-content/text';
-import Link from '';
+
+// import { Link, Image } from 'react-emails-components-miscellaneous';
+
 
 // <!-- Start Aside Layout -->
 const AsideLayout = ({}) => (

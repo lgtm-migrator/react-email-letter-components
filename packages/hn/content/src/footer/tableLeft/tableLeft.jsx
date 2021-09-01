@@ -1,6 +1,9 @@
 import React from 'react';
-// import Table from '../../html/table';
-import Table from "atherdon-react-markdown-component-body"
+
+import { Table } from "atherdon-react-markdown-component-body"
+
+// import { Link, Unsubscribe, ImageLink } from 'react-emails-components-miscellaneous';
+
 
 import { styles } from './styles';
 
@@ -32,6 +35,7 @@ const TableLeft = ({ href, src, alt }) => (
                           className="mcnFollowIconContent"
                           style={styles.followIconContent}
                         >
+
                           <a href={href} target="_blank" style={styles.followSocial} data-testid="tableLeftHrefTest">
                             <img
                               src={src}
@@ -43,6 +47,8 @@ const TableLeft = ({ href, src, alt }) => (
                               data-testid="tableLeftImgTest"
                             />
                           </a>
+
+
                         </td>
                       </tr>
                     </tbody>

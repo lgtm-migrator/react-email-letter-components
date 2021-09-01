@@ -1,5 +1,9 @@
 import React from 'react';
 
+import { 
+  Image
+ } from 'react-emails-components-miscellaneous';
+
 const Item = ({}) => (
 
     <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
@@ -11,7 +15,9 @@ const Item = ({}) => (
                         <tr>
                             <td>
 
-                                <img alt="Image" border="0" src="https://www.vouchful.com/images/email-kit/placeholder-1-3.png" width="162">
+
+                                <img alt="Image" border="0" src="https://www.vouchful.com/images/email-kit/placeholder-1-3.png" 
+                                width="162">
                                     
                             </td>
                         </tr>                        
@@ -32,6 +38,7 @@ const Item = ({}) => (
                 <!-- End Text --> 
 
 
+
                 <!-- Start Text -->
                 <tr>
                 <td align="left" class="body text-secondary">
@@ -41,9 +48,11 @@ const Item = ({}) => (
                 <!-- End Text -->  
 
 
+
                 <tr>
                 <td class="spacer-sm"></td>
                 </tr>  
+
 
 
                 <!-- Start Link -->
@@ -53,6 +62,7 @@ const Item = ({}) => (
                 </td>
                 </tr>
                 <!-- End Link --> 
+
 
 
             </tbody>

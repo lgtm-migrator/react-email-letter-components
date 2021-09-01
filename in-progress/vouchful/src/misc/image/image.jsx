@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Unsubscribe } from 'react-emails-components-miscellaneous';
+import { Image } from 'react-emails-components-miscellaneous';
 
 
 // <!-- Start Image -->

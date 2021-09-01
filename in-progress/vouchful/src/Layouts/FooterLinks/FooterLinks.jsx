@@ -12,9 +12,12 @@ const FooterLinks = ({}) => (
             <Unsubscribe />
             <Link />
             
-            <a href="https://www.example.com" class="body text-primary">Unsubscribe</a> | 
-            <a href="https://www.example.com" class="body text-primary">Privacy Policy</a> | 
-            <a href="https://www.example.com" class="body text-primary">Support</a>
+            <a href="https://www.example.com" 
+                class="body text-primary">Unsubscribe</a> | 
+            <a href="https://www.example.com" 
+                class="body text-primary">Privacy Policy</a> | 
+            <a href="https://www.example.com" 
+                class="body text-primary">Support</a>
         </td>
 
     </tr>  
