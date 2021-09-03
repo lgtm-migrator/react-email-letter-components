@@ -1,20 +1,23 @@
 import React from 'react';
 
-import { Copyright, Address } from 'react-emails-components-miscellaneous';
+import { Copyright, Sign, Address } from 'react-emails-components-miscellaneous';
 
-// TODO: maybe make it as copyrightlayout? 
-// let's think about it later
+const companyName = () => {
+  return 'Company, Inc';
+}
 
-const CopyrightRow = ({}) => (
+const CopyrightLayout = () => (
+  <Copyright>
     <td align="left" class="body text-secondary">
-      <Copyright type="one">
-        © Company, Inc. All Rights Reserved.
-      </Copyright> 
-      <br>
+      <Sign /> {companyName()}. All Rights Reserved.
+      <br/>
+
       <Address>
         <span class="address">101 King St, San Francisco, CA 94107</span>  
       </Address>
-    </td> 
+
+    </td>
+  </Copyright> 
 );
 
-export default CopyrightRow;
+export default CopyrightLayout;
