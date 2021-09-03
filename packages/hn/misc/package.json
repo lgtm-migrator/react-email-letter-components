@@ -121,7 +121,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.14.6",
-    "react-emails-components-miscellaneous": "^0.0.5"
+    "react-emails-components-miscellaneous": "^0.1.0"
   },
   "storybook-deployer": {
     "gitUsername": "xxx",

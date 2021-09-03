@@ -1,15 +1,22 @@
 import React from 'react';
 
-import { Copyright } from 'react-emails-components-miscellaneous';
+import { Copyright, Sign, year } from 'react-emails-components-miscellaneous';
 
-const Copyright = ({companyName}) => (
-  <em data-testid="copyTest">
-    Copyright ©
-    {new Date().getFullYear()}
-    {' '}
-    {companyName}. 
+const companyName = () => {
+  return 'HackerNoon';
+}
+
+const CopyrightLayout = () => (
+  <Copyright>
+    <em data-testid="copyTest">
+      Copyright <Sign />
+
+      {year()}
+      {' '}
+      {companyName()}. 
     All rights reserved.
-  </em>
+  </em>   
+  </Copyright> 
 );
 
-export default Copyright;
+export default CopyrightLayout;

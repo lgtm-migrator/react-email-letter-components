@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Address } from 'react-emails-components-miscellaneous';
 
-const Address1 = () => (
+const AddressLayout = () => (
 
     <Address>
       <strong>Our mailing address is:</strong>
@@ -12,4 +12,4 @@ const Address1 = () => (
 
 );
 
-export default Address1;
+export default AddressLayout;
