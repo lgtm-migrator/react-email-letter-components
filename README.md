@@ -32,3 +32,7 @@ https://github.com/mjmlio/mjml
 - https://designmodo.com/postcards/
 - https://designmodo.com/email-newsletter-template
 - https://mailpost.io/
+
+
+
+- https://www.npmjs.com/package/react-html-email-browser
