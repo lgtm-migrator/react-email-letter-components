@@ -5,8 +5,8 @@ import {
   ImageLink, Address
  } from 'react-emails-components-miscellaneous';
 
-import Spacer from '../inside-content/Spacer';
-import SocialMedia1 from '..'
+import Spacer from '../../inside-content/Spacer';
+import SocialMedia1 from '../..'
 
 const Footer = ({}) => (
 <tr>
