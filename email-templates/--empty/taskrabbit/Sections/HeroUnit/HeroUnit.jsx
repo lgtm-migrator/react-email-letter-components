@@ -1,5 +1,12 @@
 import React from 'react';
 
+const xxx = ({}) => (
+    
+    );
+    
+    export default xxx;
+
+    
 <tr>
     <td>
         <a href="https://itunes.apple.com/us/app/id374165361?mt=8" target="_blank">

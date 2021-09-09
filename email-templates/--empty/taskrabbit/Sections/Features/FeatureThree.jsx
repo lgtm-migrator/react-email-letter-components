@@ -1,5 +1,9 @@
 import React from 'react';
-
+const xxx = ({}) => (
+    
+    );
+    
+    export default xxx;
 <tr>
     <td>
         <a href="https://www.taskrabbit.com/m/shopping-delivery?utm_source=Sailthru&amp;utm_medium=email&amp;utm_campaign=NEW%20Welcome%20Email%201" target="_blank">
