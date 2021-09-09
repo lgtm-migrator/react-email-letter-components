@@ -5,12 +5,8 @@ import React from 'react';
 //   ImageLink, Address
 //  } from 'react-emails-components-miscellaneous';
 
-const xxx = ({}) => (
-  <> </>
-);
-
-export default xxx;
-
+const FooterLayout = ({}) => (
+  
 <table border="0" cellpadding="0" cellspacing="0" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
   <tbody>
     <tr>
@@ -75,10 +71,13 @@ export default xxx;
       <![endif]-->
                 <div class="pc-footer-row-col" style="display: inline-block; width: 100%; max-width: 280px; vertical-align: top;">
                  
+
+                 
                   <table border="0" cellpadding="0" cellspacing="0" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
                     <tbody>
                       <tr>
                         <td style="vertical-align: top; padding: 20px;" valign="top">
+
                           <table class="pc-footer-text-s1" border="0" cellpadding="0" cellspacing="0" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
                             <tbody>
                               <tr>
@@ -115,6 +114,9 @@ export default xxx;
                       </tr>
                     </tbody>
                   </table>
+
+
+
                 </div>
                 <!--[if (gte mso 9)|(IE)]>
       </td></tr></table>
@@ -129,3 +131,6 @@ export default xxx;
     </tr>
   </tbody>
 </table>
+);
+
+export default FooterLayout;
