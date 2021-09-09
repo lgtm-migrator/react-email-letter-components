@@ -1,7 +1,7 @@
 import React from 'react';
 
-const xxx = ({}) => (
+const SocialMediaLayout = ({}) => (
     
 );
 
-export default xxx;
+export default SocialMediaLayout;
