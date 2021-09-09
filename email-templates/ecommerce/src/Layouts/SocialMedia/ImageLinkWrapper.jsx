@@ -1,4 +1,5 @@
 import React from 'react';
+
 import { ImageLink } from '';
 
 const ImageLinkWrapper = ({image, link}) => {
