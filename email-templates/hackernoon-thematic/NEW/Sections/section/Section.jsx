@@ -1,5 +1,5 @@
 import React from 'react';
-import Table from '../table';
+import Table from '../../../__old/HTMLElements/src/table2';
 import { styles } from './styles';
 
 const Section = ({ children }) => (
