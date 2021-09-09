@@ -4,7 +4,7 @@ import { BasicTable } from 'react-emails-components-miscellaneous';
 
 
 // TODO: add styles as props from the outside
-const BasicTable1 = ({children}) => (
+const BasicTableRow = ({children}) => (
 
   <BasicTable>
 
@@ -14,4 +14,4 @@ const BasicTable1 = ({children}) => (
 
 );
 
-export default BasicTable1;
+export default BasicTableRow;

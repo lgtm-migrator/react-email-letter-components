@@ -4,14 +4,18 @@ import { Image } from 'react-emails-components-miscellaneous';
 
 
 // <!-- Start Image -->
-const IIImage = ({href}) => (
+// TODO: add here other attributes
+const ImageRow = ({href}) => (
 
   <tr>
       <td>
+        {/*
+          <Image >
+        */}
           <img alt="Image" border="0" src="https://www.vouchful.com/images/email-kit/placeholder-1-3.png" width="162" />
       </td>
   </tr>
  
 );
-export default IIImage;
+export default ImageRow;
 // <!-- End Image-->

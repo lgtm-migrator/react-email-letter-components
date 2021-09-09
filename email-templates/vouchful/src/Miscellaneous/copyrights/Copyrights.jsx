@@ -1,6 +1,8 @@
 import React from 'react';
 
-import { Copyright, Sign, Address } from 'react-emails-components-miscellaneous';
+import { 
+  Copyright, Sign, Address 
+} from 'react-emails-components-miscellaneous';
 
 const companyName = () => {
   return 'Company, Inc';
