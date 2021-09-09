@@ -103,7 +103,7 @@ dist
 # TernJS port file
 .tern-port
 
-package/components/misc/dist/*
+email-templates/*/*/*/packa
 package/components/misc/node_modules/*
 package/components/misc/yarn-error.log
 package/components/misc/yarn.lock
