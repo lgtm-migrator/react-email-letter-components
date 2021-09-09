@@ -1,7 +1,7 @@
 import React from 'react';
 
-const xxx = ({}) => (
+const HeadingThree = ({}) => (
   <> </>
 );
 
-export default xxx;
+export default HeadingThree;
