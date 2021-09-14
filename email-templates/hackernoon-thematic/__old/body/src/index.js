@@ -16,14 +16,13 @@ import JoinUs from './joinus/JoinUs.jsx';
 
 import Section from './section/Section.jsx';
 
-import Table from './table/Table.jsx';
 
 import BodyPrototype from './bodyPrototype/BodyPrototype.js';
 
 export {
     Content, CtaList, Divider, EmptySection, 
     GetPublished, Headline, JoinUs, 
-    Section, Table,
+    Section, 
 
     BodyPrototype
 };
