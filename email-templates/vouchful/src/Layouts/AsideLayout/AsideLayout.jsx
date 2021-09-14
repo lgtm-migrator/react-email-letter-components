@@ -6,7 +6,7 @@ import HeadingText from '../inside-content/heading';
 import Text from '../inside-content/text';
 
 // import { Link, Image } from 'react-emails-components-miscellaneous';
-
+// import { Table } from 'react-email-components-table';
 
 // <!-- Start Aside Layout -->
 const AsideLayout = ({}) => (

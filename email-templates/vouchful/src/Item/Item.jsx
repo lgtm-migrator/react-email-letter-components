@@ -4,6 +4,8 @@ import {
   Image
  } from 'react-emails-components-miscellaneous';
 
+ // import { Table } from 'react-email-components-table';
+
 const Item = ({}) => (
 
     <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">

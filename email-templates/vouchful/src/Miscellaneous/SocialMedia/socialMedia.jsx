@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { SocialMedia, Table } from 'react-emails-components-miscellaneous';
-
+// import { Table } from 'react-email-components-table';
 
 const SocialMedia1 = ({}) => (
 
