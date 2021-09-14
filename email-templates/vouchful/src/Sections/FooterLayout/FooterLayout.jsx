@@ -7,7 +7,7 @@ import {
 
 import Spacer from '../../inside-content/Spacer';
 import SocialMedia1 from '../..'
-
+// import { Table } from 'react-email-components-table';
 const Footer = ({}) => (
 <tr>
         <td align="left" id="footer">

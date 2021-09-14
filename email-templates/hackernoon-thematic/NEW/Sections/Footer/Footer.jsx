@@ -7,18 +7,13 @@ import React from 'react';
 import { 
   Copyrights, Address, 
   Unsubscribe, NewsletterSponsorshipLink 
-} from "atherdon-react-markdown-component-misc"
-
-import { 
-  Table
-} from "atherdon-react-markdown-component-body"
-
-
-
-
+} from "atherdon-react-markdown-component-misc";
 
 import { Link } from 'react-emails-components-miscellaneous'; 
 
+import { 
+  Table, TableLeft
+} from "react-email-components-table"
 
 
 
@@ -26,8 +21,6 @@ import { Link } from 'react-emails-components-miscellaneous';
 
 
 
-
-import TableLeft from './tableLeft';
 
 
 import { styles } from './styles';
