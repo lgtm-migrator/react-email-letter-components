@@ -11,5 +11,6 @@ import headStyles from './head-styles/index.js';
 
 
 export {
-  Address, Copyright, headStyles, NewsletterSponsorshipLink, Unsubscribe
+  Address, Copyright, headStyles, 
+  NewsletterSponsorshipLink, Unsubscribe
 };
