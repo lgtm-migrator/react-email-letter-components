@@ -10,6 +10,7 @@ const Section = ({ children }) => (
     <tbody className="mcnTextBlockOuter">
       <tr>
         <td valign="top" className="mcnTextBlockInner" style={styles.textBlockInner}>
+
           <Table
             align="left"
             style={styles.textContentContainer}
@@ -29,6 +30,7 @@ const Section = ({ children }) => (
               </tr>
             </tbody>
           </Table>
+          
         </td>
       </tr>
     </tbody>

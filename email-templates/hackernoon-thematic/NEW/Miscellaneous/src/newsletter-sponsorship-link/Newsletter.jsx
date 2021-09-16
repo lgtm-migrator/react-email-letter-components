@@ -12,29 +12,14 @@ import { Link } from 'react-emails-components-miscellaneous';
 
 const props = {
   href: config.contact,
-  style: styles.news,
-  label: 'Click Here To Sponsor A Newsletter by Hacker Noon'
+  style: styles.news
 }
 
 const NewsletterSponsorshipLink = () => (
 <div style={styles.center}>
   <br />
-  <Link >
+  <Link {...props}>Click Here To Sponsor A Newsletter by Hacker Noon</Link>
 </div>
 );
 
 export default NewsletterSponsorshipLink;
-
-// const NewsletterSponsorshipLink = () => (
-//   <div style={styles.center}>
-//     <br />
-//     <a href={config.contact} 
-//       data-testid="newsletterHrefTest" 
-//       target="_blank" 
-//       style={styles.news}>
-//       Click Here To Sponsor A Newsletter by Hacker Noon
-//     </a>
-//   </div>
-// );
-
-// export default NewsletterSponsorshipLink;

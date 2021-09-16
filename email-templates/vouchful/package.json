@@ -1,5 +1,5 @@
 {
-  "name": "atherdon-react-markdown-component-table",
+  "name": "templates-vouchful",
   "version": "0.1.1",
   "description": "Example React Component for npm Publication using Rollup",
   "main": "build/index.cjs.js",
@@ -40,7 +40,6 @@
     "example react component",
     "example rollup react component"
   ],
-  "author": "jae.b.bradley@gmail.com",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jaebradley/example-rollup-react-component-npm-package/issues"
@@ -120,7 +119,8 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.14.6",
-    "react-emails-components-miscellaneous": "^0.1.0",
+    "react-email-components-table": "^0.1.2",
+    "react-emails-components-miscellaneous": "^0.2.0",
     "react-image": "^4.0.3"
   },
   "storybook-deployer": {
