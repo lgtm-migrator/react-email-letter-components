@@ -1,13 +1,16 @@
 import React from 'react';
 
 import { 
-  Link, Unsubscribe, 
-  ImageLink, Address
+  ImageLink
  } from 'react-emails-components-miscellaneous';
 
 import Spacer from '../../inside-content/Spacer';
-import SocialMedia1 from '../..'
-// import { Table } from 'react-email-components-table';
+// import SocialMedia1 from '../..'
+
+
+import { Table, BasicTable } from 'react-email-components-table';
+
+
 const Footer = ({}) => (
 <tr>
         <td align="left" id="footer">
@@ -24,35 +27,54 @@ const Footer = ({}) => (
                       <tr>
                         <td valign="top" width="28">
 
-                          <ImageLink />
-                          <a href="https://www.example.com">
-                            <img 
-                                alt="Icon" 
-                                border="0" 
-                                src="https://www.vouchful.com/images/email-kit/placeholder-icon.png" width="28">
-                          </a>
+                          <ImageLink 
+                              href="https://www.example.com" 
+                              src="https://www.vouchful.com/images/email-kit/placeholder-icon.png" 
+                              alt="Icon" 
+                              border="0" 
+                              alt="Icon" 
+                              border="0" 
+                          />                        
 
                         </td>
                         <td width="16"></td>
                         <td valign="top" width="28">
 
-                        <ImageLink />
-                          <a href="https://www.example.com">
-                            <img alt="Icon" border="0" src="https://www.vouchful.com/images/email-kit/placeholder-icon.png" width="28">
-                          </a>
+                        <ImageLink 
+                              href="https://www.example.com" 
+                              src="https://www.vouchful.com/images/email-kit/placeholder-icon.png" 
+                              alt="Icon" 
+                              border="0" 
+                              alt="Icon" 
+                              border="0" 
+                          />
 
                         </td>
                         <td width="16"></td>
                         <td valign="top" width="28">
                           
-                          <ImageLink />
+                          <ImageLink 
+                              href="https://www.example.com" 
+                              src="https://www.vouchful.com/images/email-kit/placeholder-icon.png" 
+                              alt="Icon" 
+                              border="0" 
+                              alt="Icon" 
+                              border="0" 
+                          />
                           
 
                         </td>
                         <td width="16"></td>
                         <td valign="top" width="28">
 
-                          <ImageLink />
+                          <ImageLink 
+                              href="https://www.example.com" 
+                              src="https://www.vouchful.com/images/email-kit/placeholder-icon.png" 
+                              alt="Icon" 
+                              border="0" 
+                              alt="Icon" 
+                              border="0" 
+                          />
                           
 
                         </td>
@@ -64,22 +86,11 @@ const Footer = ({}) => (
 
               <Spacer /> 
               
-
-
-              <tr>
-                <td align="left" class="body text-secondary">
-                  © Company, Inc. All Rights Reserved.
-                  <br>
-                  <span class="address">101 King St, San Francisco, CA 94107</span>
-                </td>
-              </tr>
-
-
+              <CopyrightLayout />
 
               <Spacer />     
-              <FooterLayout />
 
-              
+              <FooterLayout />
 
             </tbody>           
           </table>

@@ -1,7 +1,9 @@
 import React from 'react';
 
-import { SocialMedia, Table } from 'react-emails-components-miscellaneous';
-// import { Table } from 'react-email-components-table';
+// import { SocialMedia } from 'react-emails-components-miscellaneous';
+import { Table, BasicTablec } from 'react-email-components-table';
+
+import SocialIcons from '../SocialIcons/SocialIcons.jsx'
 
 const SocialMedia1 = ({}) => (
 
@@ -9,41 +11,20 @@ const SocialMedia1 = ({}) => (
     <table border="0" cellpadding="0" cellspacing="0" role="presentation">
       <tbody>
         <tr>
-          <td valign="top" width="28">
 
 
-            <a href="https://www.example.com">
-              <img alt="Icon" border="0" src="https://www.vouchful.com/images/email-kit/placeholder-icon.png" width="28">
-            </a>
-
-          </td>
-          <td width="16"></td>
-          <td valign="top" width="28">
-
-
-            <a href="https://www.example.com">
-              <img alt="Icon" border="0" src="https://www.vouchful.com/images/email-kit/placeholder-icon.png" width="28">
-            </a>
-
-          </td>
-          <td width="16"></td>
-          <td valign="top" width="28">
-
-
-            <a href="https://www.example.com">
-              <img alt="Icon" border="0" src="https://www.vouchful.com/images/email-kit/placeholder-icon.png" width="28">
-            </a>
-
-          </td>
-          <td width="16"></td>
-          <td valign="top" width="28">
-
-
-            <a href="https://www.example.com">
-              <img alt="Icon" border="0" src="https://www.vouchful.com/images/email-kit/placeholder-icon.png" width="28">
-            </a>
+          <SocialIcons href="https://www.example.com" src="https://www.vouchful.com/images/email-kit/placeholder-icon.png" alt="Icon" border="0" />
             
-          </td>
+          <td width="16"></td>
+          <SocialIcons href="https://www.example.com" src="https://www.vouchful.com/images/email-kit/placeholder-icon.png" alt="Icon" border="0" />
+
+          <td width="16"></td>
+
+          <SocialIcons href="https://www.example.com" src="https://www.vouchful.com/images/email-kit/placeholder-icon.png" alt="Icon" border="0" />
+
+          <td width="16"></td>
+          <SocialIcons href="https://www.example.com" src="https://www.vouchful.com/images/email-kit/placeholder-icon.png" alt="Icon" border="0" />
+
         </tr>
       </tbody>
     </table>  

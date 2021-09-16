@@ -1,10 +1,10 @@
 import React from 'react';
 
 import { 
-  Image
+  Image, Link
  } from 'react-emails-components-miscellaneous';
 
- // import { Table } from 'react-email-components-table';
+ import { Table, BasicTable } from 'react-email-components-table';
 
 const Item = ({}) => (
 
@@ -18,9 +18,12 @@ const Item = ({}) => (
                             <td>
 
 
+
                                 <img alt="Image" border="0" src="https://www.vouchful.com/images/email-kit/placeholder-1-3.png" 
                                 width="162">
                                     
+
+
                             </td>
                         </tr>                        
                     </tbody>
@@ -60,7 +63,12 @@ const Item = ({}) => (
                 <!-- Start Link -->
                 <tr>
                 <td align="left" class="body text-dark-gray">
+
+
                     <a href="https://www.example.com" class="body text-primary">Sed odio</a>
+
+
+
                 </td>
                 </tr>
                 <!-- End Link --> 
