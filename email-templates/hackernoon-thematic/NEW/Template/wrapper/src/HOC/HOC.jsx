@@ -13,12 +13,14 @@ const HOC = ({ children, styles }) => (
         <tbody>
           <tr>
             <td align="center" valign="top" id="bodyCell" style={styles.bodyCell}>
+
               <Table
                 className="templateContainer"
                 style={styles.templateContainer}
               >
                 {children}
               </Table>
+              
             </td>
           </tr>
         </tbody>

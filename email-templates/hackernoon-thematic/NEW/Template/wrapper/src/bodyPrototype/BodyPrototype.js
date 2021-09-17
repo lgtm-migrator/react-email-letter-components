@@ -2,9 +2,11 @@ import React from 'react';
 
 import { Sponsor } from "atherdon-react-markdown-component-body";
 
+
+
 import { 
   MainTitle, Image, Heading, Strong, Paragraph, Separator, Divider 
-} from "atherdon-react-markdown-component-typography"
+} from "react-email-components-typography"
 
 const BodyPrototype = () => (
   <>
