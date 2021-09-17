@@ -11,16 +11,14 @@ import React from 'react';
 //   NewsletterSponsorshipLink 
 // } from "atherdon-react-markdown-component-misc";
 
+
+
 // import { Link } from 'react-emails-components-miscellaneous'; 
 
 
 import { 
   Table, TableLeft
 } from "react-email-components-table"
-
-
-
-
 
 
 
