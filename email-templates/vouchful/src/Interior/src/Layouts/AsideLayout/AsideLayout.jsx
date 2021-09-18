@@ -67,7 +67,7 @@ const AsideLayout = ({}) => (
                     {*2*} 
 
 
-                    {*link*}
+                    
 
                     <Link href="" />
 

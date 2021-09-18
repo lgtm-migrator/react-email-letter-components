@@ -5,7 +5,8 @@ import {
  } from 'react-emails-components-miscellaneous';
 
  import { BasicTable } from 'react-email-components-table';
-import DefaultImage from '../DefaultImage/DefaultImage';
+import DefaultImage from '../Elements/DefaultImage/DefaultImage';
+import Spacer from '../'
 
 const Item = ({}) => (
 
@@ -61,9 +62,7 @@ const Item = ({}) => (
 
 
 
-                <tr>
-                <td class="spacer-sm"></td>
-                </tr>  
+                <Spacer/>
 
 
 
