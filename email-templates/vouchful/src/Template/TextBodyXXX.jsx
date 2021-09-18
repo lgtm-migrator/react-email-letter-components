@@ -1,12 +1,14 @@
 import React from 'react';
 // <!-- Start Text -->   
-const TextBodyXXX = ({}) => (
+const TextBody = ({children, className}) => (
   <tr>
-    <td align="left" class="body text-dark-gray">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam diam justo, dignissim nec libero at, scelerisque porta neque.
+    <td align="left" class={className}>
+      {children}      
     </td>
   </tr>
 );
 
-export default TextBodyXXX;
+export default TextBody;
 // <!-- End Text -->
+
+{/* <td align="left" class="body text-dark-gray"></td> */}

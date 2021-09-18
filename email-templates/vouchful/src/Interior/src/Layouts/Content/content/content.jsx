@@ -138,8 +138,8 @@ const Content = ({}) => (
                                     <tbody>
 
 
-                                     {*image*}
-
+                                     
+                                     <DefaultImage /> 
 
                                     </tbody>
                                   </table>
@@ -162,14 +162,10 @@ const Content = ({}) => (
                                       </tr>
                                       <!-- End Text --> 
 
-
-                                      <!-- Start Text -->
-                                      <tr>
-                                        <td align="left" class="body text-secondary">
-                                          Suspendisse rutrum elit tortor, et volutpat nisl pellentesque eu. Nullam nec luctus sapien, vel dapibus sem. Nam nisi diam.
-                                        </td>
-                                      </tr>
-                                      <!-- End Text -->  
+                                      <TextBody className="body text-secondary">
+                                      Suspendisse rutrum elit tortor, et volutpat nisl pellentesque eu. Nullam nec luctus sapien, vel dapibus sem. Nam nisi diam.
+                                      </TextBody>
+                                      
 
 
                                       {*2*} 
@@ -194,7 +190,7 @@ const Content = ({}) => (
                     </tbody>
                   </table>
 
-                  
+
                 </td>
               </tr>
   </>
