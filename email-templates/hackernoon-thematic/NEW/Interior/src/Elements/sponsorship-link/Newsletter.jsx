@@ -22,4 +22,4 @@ const NewsletterSponsorshipLink = () => (
 </div>
 );
 
-export default NewsletterSponsorshipLink;
+export default SponsorshipLink;
