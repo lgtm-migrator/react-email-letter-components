@@ -1,9 +1,13 @@
 import React from 'react';
-import { Table } from 'react-email-components-table';
+
+import { BasicTable } from 'react-email-components-table';
+
 const Content = ({}) => (
   <>
    <tr>
                 <td class="panel-body">
+
+
                   <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
                     <tbody>
 
@@ -32,10 +36,14 @@ const Content = ({}) => (
                       <!-- Start Aside Layout -->
                       <tr>
                         <td>
+
+
                           <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
                             <tbody>
                               <tr>
                                 <td align="left" valign="top" width="162" class="column-responsive">
+
+
                                   <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
                                     <tbody>
 
@@ -45,9 +53,13 @@ const Content = ({}) => (
 
                                     </tbody>
                                   </table>
+
+
                                 </td>
                                 <td width="24" class="column-responsive-gutter"></td>
                                 <td align="left" valign="top" width="348" class="column-responsive column-responsive-last">
+
+
                                   <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
                                     <tbody>
 
@@ -82,10 +94,14 @@ const Content = ({}) => (
 
                                     </tbody>
                                   </table>
+
+
                                 </td>
                               </tr>
                             </tbody>
                           </table>
+
+
                         </td>
                       </tr>
                       <!-- End Aside Layout -->    
@@ -110,10 +126,14 @@ const Content = ({}) => (
                       <!-- Start Aside Layout -->
                       <tr>
                         <td>
+
+
                           <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
                             <tbody>
                               <tr>
                                 <td align="left" valign="top" width="162" class="column-responsive">
+
+
                                   <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
                                     <tbody>
 
@@ -123,9 +143,13 @@ const Content = ({}) => (
 
                                     </tbody>
                                   </table>
+
+
                                 </td>
                                 <td width="24" class="column-responsive-gutter"></td>
                                 <td align="left" valign="top" width="348" class="column-responsive column-responsive-last">
+
+
                                   <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
                                     <tbody>
 
@@ -154,10 +178,14 @@ const Content = ({}) => (
 
                                     </tbody>
                                   </table>
+
+
                                 </td>
                               </tr>
                             </tbody>
                           </table>
+
+
                         </td>
                       </tr>
                       <!-- End Aside Layout -->     
@@ -165,6 +193,8 @@ const Content = ({}) => (
 
                     </tbody>
                   </table>
+
+                  
                 </td>
               </tr>
   </>

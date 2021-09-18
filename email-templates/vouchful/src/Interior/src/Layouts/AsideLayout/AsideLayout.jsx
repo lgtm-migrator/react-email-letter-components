@@ -2,37 +2,47 @@ import React from 'react';
 
 import IIImage from '';
 import 2 from '';
-import HeadingText from '../inside-content/heading';
-import Text from '../inside-content/text';
+
+
+import HeadingText from '../Typography/heading';
+
+import Text from '../Typography/Text';
 
 import { Link, Image } from 'react-emails-components-miscellaneous';
-import { Table } from 'react-email-components-table';
+import { BasicTable } from 'react-email-components-table';
 
 // <!-- Start Aside Layout -->
 const AsideLayout = ({}) => (
-  <>
+
         <tr>
     <td>
-        <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+        <BasicTable >
+        
+
         <tbody>
             <tr>
                 
             <td align="left" valign="top" width="162" class="column-responsive">
-                <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+
+                <BasicTable>
+                
                 <tbody>
 
                     {*image*}
-                    
+                    <Image src= />
 
 
                 </tbody>
-                </table>
+                
+                </BasicTable>
             </td>
 
             <td width="24" class="column-responsive-gutter"></td>
 
             <td align="left" valign="top" width="348" class="column-responsive column-responsive-last">
-                <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+
+                <BasicTable>
+                
                 <tbody>
 
 
@@ -59,17 +69,22 @@ const AsideLayout = ({}) => (
 
                     {*link*}
 
+                    <Link href="" />
 
                 </tbody>
-                </table>
+                
+                </BasicTable>
+
             </td>
             </tr>
         </tbody>
-        </table>
+        
+        </BasicTable>
+
     </td>
     </tr>
                       
-  </>
+
 );
 
 export default AsideLayout;
