@@ -12,9 +12,7 @@ const FooterLinksLayout = ({}) => (
             <Link href="https://www.example.com" className="body text-primary">Privacy Policy</Link> | 
             <Link href="https://www.example.com" className="body text-primary">Support</Link>
                         
-
         </td>
-
     </tr>  
 );
 
