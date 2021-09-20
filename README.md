@@ -4,6 +4,7 @@
 compare with later:
 ## https://github.com/chromakode/react-html-email
  https://www.npmjs.com/package/@types/react-html-email
+ https://github.com/chromakode/react-html-email/blob/e6f3b5122a19823fac31870649311c52e46c75f8/src/StyleValidator.js#L5
 
 ## https://www.npmjs.com/package/react-email-components
 https://github.com/clocklimited/ReactEmailComponents
