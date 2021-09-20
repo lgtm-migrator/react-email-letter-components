@@ -31,6 +31,18 @@ https://github.com/lang-ai/react-emails
 
 https://github.com/mjmlio/mjml
 
+---
+
+https://github.com/sparkbox/email-lab
+
+https://emailclientmarketshare.com/
+
+https://github.com/mailchimp/email-blueprints/tree/master/templates
+
+https://github.com/mailchimp/email-blueprints/blob/master/modular-template-patterns/modular-template-patterns.html
+
+https://foundation.zurb.com/emails
+
 
 
 - https://designmodo.com/postcards/
