@@ -16,7 +16,6 @@ https://github.com/clocklimited/ReactEmailComponents
 - https://paddle.com/blog/why-we-created-an-email-system-using-react/
 - https://bestofreactjs.com/repo/chromakode-react-html-email-react-renderers
 - https://building.lang.ai/how-to-build-emails-with-react-fcf941b125d1
-- https://tryolabs.com/blog/2015/04/07/react-examples-mailbox/
 
 
 explore things here: https://gist.github.com/vouchful
