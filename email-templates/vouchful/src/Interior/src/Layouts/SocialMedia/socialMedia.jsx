@@ -1,10 +1,11 @@
 import React from 'react';
 
+
 // import { SocialMedia } from 'react-emails-components-miscellaneous';
 
 import { BasicTable } from 'react-email-components-table';
 
-import SocialIcons from '../../Elements/SocialIcons/SocialIcons.jsx'
+import SocialIcon from '../../Elements/SocialIcons/SocialIcons.jsx'
 
 const SocialMediaLayout = ({}) => (
 
@@ -15,17 +16,16 @@ const SocialMediaLayout = ({}) => (
         <tr>
 
 
-          <SocialIcons href="https://www.example.com" src="https://www.vouchful.com/images/email-kit/placeholder-icon.png" />
-            
-          <td width="16"></td>
-          <SocialIcons href="https://www.example.com" src="https://www.vouchful.com/images/email-kit/placeholder-icon.png" />
-
+          <SocialIcon href="https://www.example.com" src="https://www.vouchful.com/images/email-kit/placeholder-icon.png" />            
           <td width="16"></td>
 
-          <SocialIcons href="https://www.example.com" src="https://www.vouchful.com/images/email-kit/placeholder-icon.png" />
-
+          <SocialIcon href="https://www.example.com" src="https://www.vouchful.com/images/email-kit/placeholder-icon.png" />
           <td width="16"></td>
-          <SocialIcons href="https://www.example.com" src="https://www.vouchful.com/images/email-kit/placeholder-icon.png" />
+
+          <SocialIcon href="https://www.example.com" src="https://www.vouchful.com/images/email-kit/placeholder-icon.png" />
+          <td width="16"></td>
+
+          <SocialIcon href="https://www.example.com" src="https://www.vouchful.com/images/email-kit/placeholder-icon.png" />
 
         </tr>
       </tbody>

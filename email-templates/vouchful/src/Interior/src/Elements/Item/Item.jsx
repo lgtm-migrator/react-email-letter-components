@@ -4,9 +4,9 @@ import {
    Link
  } from 'react-emails-components-miscellaneous';
 
- import { BasicTable } from 'react-email-components-table';
+import { BasicTable } from 'react-email-components-table';
 import DefaultImage from '../DefaultImage/DefaultImage';
-import Spacer from '../'
+// import Spacer from '../'
 
 const Item = ({}) => (
 
@@ -21,13 +21,7 @@ const Item = ({}) => (
                     <tbody>                       
                         <tr>
                             <td>
-
-
-
-                                <DefaultImage />
-                                    
-
-
+                                <DefaultImage />                                    
                             </td>
                         </tr>                        
                     </tbody>
@@ -62,7 +56,7 @@ const Item = ({}) => (
 
 
 
-                <Spacer/>
+                <Spacer />
 
 
 

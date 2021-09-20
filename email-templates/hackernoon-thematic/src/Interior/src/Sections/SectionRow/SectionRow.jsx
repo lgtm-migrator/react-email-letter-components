@@ -1,5 +1,6 @@
 import React from 'react';
 import { Table } from 'react-email-components-table';
+
 import { styles } from './styles';
 
 const Section = ({ children }) => (

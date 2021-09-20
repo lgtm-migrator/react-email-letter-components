@@ -2,7 +2,7 @@ import React from 'react';
 
 import { ImageLink } from 'react-emails-components-miscellaneous';
 
-const SocialIcons = (props) => {
+const SocialIcon = (props) => {
   let {href} = props;
   let attributes = {
     href: href,
@@ -19,4 +19,4 @@ const SocialIcons = (props) => {
   );
 }
 
-export default SocialIcons;
+export default SocialIcon;
