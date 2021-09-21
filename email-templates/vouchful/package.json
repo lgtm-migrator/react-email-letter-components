@@ -120,6 +120,7 @@
   "dependencies": {
     "@babel/runtime": "^7.14.6",
     "react-email-components-table": "^0.1.2",
+    "react-email-components-template": "^0.1.0",
     "react-emails-components-miscellaneous": "^0.2.0",
     "react-image": "^4.0.3"
   },
