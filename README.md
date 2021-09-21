@@ -1,5 +1,7 @@
 # react-email-letter-components
 
+for using templates
+`yarn add react-email-components-template`
 
 compare with later:
 ## https://github.com/chromakode/react-html-email
