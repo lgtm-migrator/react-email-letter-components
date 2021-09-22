@@ -13,7 +13,7 @@ import JoinUs from './joinus/JoinUs.jsx';
 import SponsorshipLink from './sponsorship-link/Newsletter.jsx';
 import Unsubscribe from './unsubscribe/Unsubscribe.jsx';
 
-export {
+export default {
     Address, Copyright,
 
     CtaList,   
