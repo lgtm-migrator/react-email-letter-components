@@ -1,7 +1,7 @@
 /* eslint import/extensions: 0 */
 
 
-import Address from '../../Content/src/Elements/address/Address.jsx';
+import Address from './Address/Address.jsx';
 import Copyright from './copyrights/Copyrights.jsx';
 
 import CtaList from './ctaList/CtaList.jsx';

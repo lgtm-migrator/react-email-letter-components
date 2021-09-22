@@ -1,3 +1,3 @@
-import Image from './Image';
+import ImageLayout from './ImageLayout.jsx';
 
-export default Image;
+export default ImageLayout;

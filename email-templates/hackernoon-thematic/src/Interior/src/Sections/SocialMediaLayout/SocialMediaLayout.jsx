@@ -51,8 +51,7 @@ const SocialMediaLayout = () => {
                 <tr>
                     <td align="center" valign="top" style={styles.tdCenterTop2}>
         
-                        <SocialMedia links={links} component="TableLeft" />
-
+                        <SocialMedia links={config.links} component="TableLeft" />
 
                     </td>
                 </tr>

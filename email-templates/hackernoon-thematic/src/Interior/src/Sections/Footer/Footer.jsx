@@ -9,11 +9,12 @@ import {
 } from "react-emails-components-miscellaneous";
 
 import { 
-  Table, TableLeft
+  Table, 
+  TableLeft
 } from "react-email-components-table"
 
 
-import SocialMedia from "../SocialMedia/SocialMedia"
+import SocialMediaLayout from "../SocialMediaLayout/SocialMediaLayout.jsx"
 
 
 import { styles } from './styles';
@@ -47,7 +48,7 @@ const Footer = () => (
                         <tr>
                           <td align="center" valign="top" style={styles.tdCenterTop}>
                             
-                            <SocialMedia />
+                            <SocialMediaLayout />
 
 
                           </td>
