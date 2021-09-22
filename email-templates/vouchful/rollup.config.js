@@ -10,6 +10,11 @@ import pkg from './package.json';
 const INPUT_FILE_PATH = 'src/index.js';
 const OUTPUT_NAME = 'Example';
 
+const extensions = [
+  ".js",
+  ".jsx"
+];
+
 const GLOBALS = {
   react: 'React',
   'react-dom': 'ReactDOM',
@@ -24,6 +29,7 @@ const PLUGINS = [
     ],
   }),
   babel({
+    extensions,
     babelHelpers: 'runtime',
     skipPreflightCheck: true,
     exclude: 'node_modules/**',
