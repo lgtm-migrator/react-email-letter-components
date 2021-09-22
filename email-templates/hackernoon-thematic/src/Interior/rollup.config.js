@@ -5,6 +5,8 @@ import postcss from 'rollup-plugin-postcss';
 import filesize from 'rollup-plugin-filesize';
 import autoprefixer from 'autoprefixer';
 
+// import includePaths from "rollup-plugin-includepaths";
+
 import pkg from './package.json';
 
 const INPUT_FILE_PATH = 'src/index.js';
@@ -14,6 +16,17 @@ const extensions = [
   ".js",
   ".jsx"
 ];
+
+//// packages that should be treated as external dependencies, not bundled
+//// e.g. ['axios']
+//const external = ["os", "atherdon-newsletter-js-layouts", "atherdon-newsletter-react"];
+
+//const includePathOptions = {
+//  include: {},
+//  paths: ["src"],
+//  external: [],
+//  extensions
+//};
 
 const GLOBALS = {
   react: 'React',
@@ -43,6 +56,7 @@ const PLUGINS = [
   }),
   commonjs(),
   filesize(),
+  //  includePaths(includePathOptions),
 ];
 
 const EXTERNAL = [
