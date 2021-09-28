@@ -1,6 +1,6 @@
 import React from 'react';
 
-const xxx = ({}) => (
+const ProductList = ({}) => (
   <table border="0" cellpadding="0" cellspacing="0" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
   <tbody>
     <tr>
@@ -61,4 +61,4 @@ const xxx = ({}) => (
 </table>
 );
 
-export default xxx;
+export default ProductList;

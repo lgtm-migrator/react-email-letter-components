@@ -1,7 +1,7 @@
 import React from 'react';
 
-const xxx = ({}) => (
+const ContentLayout = ({}) => (
   <> </>
 );
 
-export default xxx;
+export default ContentLayout;
