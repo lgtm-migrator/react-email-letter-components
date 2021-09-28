@@ -2,7 +2,7 @@ import React from 'react';
 
 // import { ImageLink } from ''
 
-const xxx = ({}) => (
+const FeatureFour = ({}) => (
     <tr>
         <td>
             <a href="https://www.taskrabbit.com?utm_source=Sailthru&amp;utm_medium=email&amp;utm_campaign=NEW%20Welcome%20Email%201" target="_blank">
@@ -13,7 +13,6 @@ const xxx = ({}) => (
             </a>
         </td>
     </tr>
-
 );
     
-export default xxx;
+export default FeatureFour;
