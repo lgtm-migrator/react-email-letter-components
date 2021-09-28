@@ -2,7 +2,7 @@ import React from 'react';
 
 // NOT FULL _ CHECK LATER !!!
 
-const xxx = ({}) => (
+const ProductLayout = ({}) => (
   <div class="pc-products-row-col" style="display: inline-block; width: 100%; max-width: 280px; vertical-align: top; text-align: left;">
   <table border="0" cellpadding="0" cellspacing="0" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
     <tbody>
@@ -55,7 +55,7 @@ const xxx = ({}) => (
 </div>
 );
 
-export default xxx;
+export default ProductLayout;
 
 
 

@@ -1,7 +1,7 @@
 import React from 'react';
 
-const xxx = ({}) => (
+const Logo = ({}) => (
   <> </>
 );
 
-export default xxx;
+export default Logo;

@@ -1,7 +1,7 @@
 import React from 'react';
 
-const xxx = ({}) => (
+const MiscLayout = ({}) => (
   <> </>
 );
 
-export default xxx;
+export default MiscLayout;
