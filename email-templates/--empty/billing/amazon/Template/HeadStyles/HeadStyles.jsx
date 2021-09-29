@@ -1,3 +1,8 @@
+import React from 'react';
+
+const HeadStyles = () => (
+  <>
+  <style>
 body {
     margin: 0;
     font: 12px/16px Arial, sans-serif;
@@ -530,3 +535,8 @@ body {
     color: #000 !important;
     text-decoration: none !important;
   }
+  </style>
+  </>
+);
+
+export default HeadStyles;

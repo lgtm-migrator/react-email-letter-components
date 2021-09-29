@@ -1,4 +1,9 @@
- /* CLIENT-SPECIFIC STYLES */
+import React from 'react';
+
+const HeadStyles = () => (
+  <>
+  <style>
+  /* CLIENT-SPECIFIC STYLES */
  #outlook a{padding:0;} /* Force Outlook to provide a "view in browser" message */
  .ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail to display emails at full width */
  .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;} /* Force Hotmail to display normal line spacing */
@@ -66,3 +71,9 @@
  font-size: 16px !important;
  }
  }
+</style>
+
+  </>
+);
+
+export default HeadStyles;

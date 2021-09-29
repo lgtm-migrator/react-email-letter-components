@@ -1,4 +1,9 @@
-@media screen {
+import React from 'react';
+
+const HeadStyles = () => (
+  <>
+  <style>
+  @media screen {
     @font-face {
       font-family: 'Fira Sans';
       font-style: normal;
@@ -157,3 +162,9 @@
       display: none !important;
     }
   }
+</style>
+
+  </>
+);
+
+export default HeadStyles;

@@ -6,8 +6,9 @@
   <meta name="format-detection" content="telephone=no">
   <meta name="x-apple-disable-message-reformatting">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title></title>
-  STYLE
+  <title>!TITLE!</title>
+
+  !STYLES!
    
      
   <!--[if mso]>
@@ -45,7 +46,7 @@
                   </table>
 
 
-
+        !CONTENT PROBABLY GOES HERE!
 
                   
 

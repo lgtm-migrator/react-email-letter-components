@@ -1,4 +1,9 @@
-   /* === Custom Fonts === */
+import React from 'react';
+
+const HeadStyles = () => (
+  <>
+  <style>
+  /* === Custom Fonts === */
       /* Add your fonts here via imports */
 
       /* === Client Styles === */
@@ -252,3 +257,9 @@
         /*
         Adjust sizes and spacing on mobile.
         */
+
+</style>
+  </>
+);
+
+export default HeadStyles;
