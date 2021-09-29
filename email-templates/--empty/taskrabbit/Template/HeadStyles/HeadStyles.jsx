@@ -1,7 +1,8 @@
+import React from 'react';
 
-
-
- <style>
+const HeadStyles = () => (
+  <>
+  <style>
  td.cta_inbox div a.cta_btn_width {
    padding: 11px 0 11px 0 !important;
  }
@@ -71,3 +72,7 @@ td.outlook_padding
  }
 </style>
 <![endif]-->
+  </>
+);
+
+export default HeadStyles;
