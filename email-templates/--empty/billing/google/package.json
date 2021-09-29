@@ -1,6 +1,6 @@
 {
-  "name": "templates-vouchful",
-  "version": "0.1.1",
+  "name": "email-template-google-billing",
+  "version": "0.0.1",
   "description": "Example React Component for npm Publication using Rollup",
   "main": "build/index.cjs.js",
   "module": "build/index.esm.js",
