@@ -1,8 +1,16 @@
-<tr>
+import React from 'react';
+
+import { BasicTable } from 'react-email-components-table';
+
+
+const OrderInfo = ({children}) => (
+
+    <tr>
           <td width="24" bgcolor="#f7f7f7" style="border-collapse:collapse; border-spacing:0; padding:0;margin:0; width:24px; min-width:24px; max-width:24px; background:#f7f7f7" valign="bottom"></td>
               <td width="" bgcolor="#f7f7f7" align="center" style="border-collapse:collapse; border-spacing:0; color:#ffffff; font-family:Roboto, arial; font-size:16px; line-height:24px; text-align:center; background:#f7f7f7;">
 
-				<!--Ordered from and Shipping details Logic -->
+
+
                 <table bgcolor="#ffffff" width="100%" align="center" style="-premailer-cellpadding:0; -premailer-cellspacing:0; border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0; text-align:center; width: 100%; max-width: 552px; background:#ffffff;  margin: 0 auto; border-top: solid 1px #dddddd; border-left: solid 1px #dddddd; border-right: solid 1px #dddddd;" cellpadding="0" cellspacing="0">
                 <tbody>
                     <tr>
@@ -14,7 +22,9 @@
 							</td>
 							<td width="31" dir="ltr" style="border-collapse:collapse;border-spacing:0; width: 31px;"></td>
 							</tr>
-						</tbody></table></td>
+						</tbody></table>
+						
+			</td>
 
 						<td style="border-collapse:collapse; border-spacing:0; padding:0; padding-top:28px; color:#616161; font-family:Roboto, arial; font-size:13px; text-align:left; font-weight:bold;"><table width="100%" style="-premailer-cellpadding:0; -premailer-cellspacing:0; border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0;" cellpadding="0" cellspacing="0">
 							<tbody><tr>
@@ -69,30 +79,29 @@
 					</tr>
 					<tr>
 						<td colspan="2" style="border-collapse:collapse; border-spacing:0; padding:0; padding-bottom:25px; color:#666666; font-family:'Roboto', arial; font-size:11px; line-height:15px; text-align:left;vertical-align: top;padding-top: 4px;">
-                            <table width="100%" style="-premailer-cellpadding:0; -premailer-cellspacing:0; border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0;" cellpadding="0" cellspacing="0">
+                            
+							<table width="100%" style="-premailer-cellpadding:0; -premailer-cellspacing:0; border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0;" cellpadding="0" cellspacing="0">
 							<tbody><tr>
 							<td width="32" dir="ltr" style="border-collapse:collapse;border-spacing:0; width: 32px;"></td>
 							<td dir="ltr" width="246" style="border-collapse:collapse; border-spacing:0; color:#666666; font-family:'Roboto', arial; font-size:13px; line-height: 18px; text-align:center;padding:0;  text-align:left;width: 246px;vertical-align: top;">
-							Google LLC<br>1600 Amphitheatre Parkway<br>Mountain View<br>CA<br>94043<br>United States
+							Google LLC<br/>1600 Amphitheatre Parkway<br/>Mountain View<br/>CA<br/>94043<br/>United States
 							</td>
 							<td width="17" dir="ltr" style="border-collapse:collapse;border-spacing:0; width: 17px;"></td>
 							<td dir="ltr" width="247" style="border-collapse:collapse; border-spacing:0; color:#666666; font-family:'Roboto', arial; font-size:13px; line-height: 18px; text-align:center;padding:0;  text-align:left;width: 247px;vertical-align: top;">
-                                Smiles Davis<br>
-                                600 Montgomery St<br san="" francisco<br="">
-                                CA<br>
-                                94111<br>
+                                Smiles Davis<br/>
+                                600 Montgomery St<br/> san francisco<br/>
+                                CA<br/>
+                                94111<br/>
                                 United States
 							</td>
 							<td width="31" dir="ltr" style="border-collapse:collapse;border-spacing:0; width: 31px;"></td>
 							</tr>
 						</tbody></table>
+
                         </td>
                       </tr>
 				</tbody></table>
 
-				<!--Ordered from and Shipping details Logic END -->
-
-				<!--Price details start -->
                 <table align="center" bgcolor="#ffffff" cellpadding="0" cellspacing="0" id="shippingTaxAndTotal" style="-premailer-cellpadding:0; -premailer-cellspacing:0; border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0; text-align:center; width:552px; max-width:552px; background:#ffffff; margin: 0 auto; border-bottom: solid 1px #dddddd; border-left: solid 1px #dddddd; border-right: solid 1px #dddddd;" width="552">
                     <tbody>
                     <tr>
@@ -118,7 +127,8 @@
                                 <table cellpadding="0" cellspacing="0" style="-premailer-cellpadding:0; -premailer-cellspacing:0; border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0;" width="100%">
                                 <tbody>
 
-                                    <!-- Restocking Fee -->
+                                   
+								   
                                     <tr>
                                         <td align="right" class="padding_left" dir="ltr" style="border-collapse:collapse; border-spacing:0; color:#616161; font-family:Roboto, arial; font-size:13px; text-align:left; line-height: 16px; font-weight:bold;    width: 183px;" width="183">Shipping</td>
                                         <td align="left" dir="ltr" style="border-collapse:collapse; border-spacing:0; color:#616161; font-family:Roboto, arial; font-size:13px; text-align:left; line-height: 16px; font-weight:bold;    width: 0px;" width="0"> </td>
@@ -136,12 +146,14 @@
                                         <td dir="ltr" itemprop="price" style="border-collapse:collapse; border-spacing:0;padding-top: 7px; color:#777777; font-family:Roboto, arial; font-size:13px; text-align:right;  line-height: 16px;">$0.00</td>
                                     </tr>
 
-                                    <!-- Horizontal line -->
+                                    
+									
                                     <tr>
                                         <td class="padding_left" dir="ltr" style="border-collapse:collapse; border-spacing:0;color:#616161; font-family:Roboto, arial; font-size:13px; text-align:left; font-weight:bold; line-height: 16px; padding-top: 7px;padding-bottom:28px;    vertical-align: bottom;   width: 183px;" valign="bottom" width="183">Total</td>
                                         <td align="left" dir="ltr" style="border-collapse:collapse; border-spacing:0; color:#616161; font-family:Roboto, arial; font-size:13px; text-align:left; line-height: 16px; font-weight:bold;" width="4"> </td>
                                         <td dir="ltr" itemprop="price" style="border-collapse:collapse; border-spacing:0; padding-top: 7px; padding-bottom:12px; color:#777777; font-family:Roboto, arial; font-size:13px; text-align:right;  line-height: 16px;padding-bottom:28px;  vertical-align: bottom;" valign="bottom">$0.00</td>
                                     </tr>
+
                                     </tbody>
                                 </table>
                                         </td>
@@ -154,7 +166,11 @@
                         </tbody>
                 </table>
 
-				<!--Price details END -->
+				
+				
 			  </td>
-                  <td width="24" bgcolor="#f7f7f7" style="border-collapse:collapse; border-spacing:0; padding:0;margin:0; width:24px; min-width:24px; max-width:24px; background:#f7f7f7" valign="bottom"></td>
+				<td width="24" bgcolor="#f7f7f7" style="border-collapse:collapse; border-spacing:0; padding:0;margin:0; width:24px; min-width:24px; max-width:24px; background:#f7f7f7" valign="bottom"></td>
             </tr>
+);
+
+export default OrderInfo;	
