@@ -1,10 +1,13 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 
 const HeadStyles = () => (
-  <>
-  <style>
+  <Fragment>
+  
+  <style dangerouslySetInnerHTML={{__html: `
+      
+      `}}></style>
  
-  </>
+  </Fragment>>
 );
 
 export default HeadStyles;

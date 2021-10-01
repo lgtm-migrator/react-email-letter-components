@@ -10,15 +10,12 @@ import {
 
 const Footer = ({}) => (
 
-    
-);
-
-<tr>
+  <tr>
             <td colspan="3" style="border-width:0;border-collapse:collapse;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;">
               <table class="Footer" width="100%" style="border-width:0;border-collapse:collapse;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;background-color:#f6f9fc;border-bottom-left-radius:8px;border-bottom-right-radius:8px;">
                 <tbody>
                   <tr>
-                    <td class="Spacer Spacer-dividerLarge" colspan="3" height="44" style="border-width:0;border-collapse:collapse;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;color:#ffffff;font-size:1px;line-height:1px;mso-line-height-rule:exactly;">&lt;</td>
+                    <td class="Spacer Spacer-divider Large" colspan="3" height="44" style="border-width:0;border-collapse:collapse;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;color:#ffffff;font-size:1px;line-height:1px;mso-line-height-rule:exactly;">&lt;</td>
                   </tr>
                   <tr>
                     <td class="Spacer Spacer-gutter" width="64" style="border-width:0;border-collapse:collapse;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;color:#ffffff;font-size:1px;line-height:1px;mso-line-height-rule:exactly;">&lt;</td>
@@ -31,8 +28,7 @@ const Footer = ({}) => (
                   <tr>
                     <td class="Spacer Spacer-gutter" width="64" style="border-width:0;border-collapse:collapse;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;color:#ffffff;font-size:1px;line-height:1px;mso-line-height-rule:exactly;">&lt;</td>
                     <td class="Footer-legal Font Font-caption Delink" style="border-width:0;border-collapse:collapse;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;mso-line-height-rule:exactly;vertical-align:middle;color:#525f7f;font-size:12px;line-height:16px;">Stripe, 510 Townsend Street, San Francisco CA 94103</td>
-                    <td class="Spacer 
-Spacer-gutter" width="64" style="border-width:0;border-collapse:collapse;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;color:#ffffff;font-size:1px;line-height:1px;mso-line-height-rule:exactly;">&lt;</td>
+                    <td class="Spacer Spacer-gutter" width="64" style="border-width:0;border-collapse:collapse;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;color:#ffffff;font-size:1px;line-height:1px;mso-line-height-rule:exactly;">&lt;</td>
                   </tr>
                   <tr>
                     <td class="Spacer Spacer-divider" colspan="3" height="20" style="border-width:0;border-collapse:collapse;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;color:#ffffff;font-size:1px;line-height:1px;mso-line-height-rule:exactly;">&lt;</td>
@@ -68,3 +64,7 @@ Spacer-gutter" width="64" style="border-width:0;border-collapse:collapse;margin-
               </table>
             </td>
           </tr>
+    
+);
+
+export default Footer;
