@@ -1,6 +1,9 @@
 import React from 'react';
 
 import { BasicTable } from 'react-email-components-table';
+import { 
+    Image
+} from 'react-emails-components-miscellaneous';
 
 const OrderStatus = ({children}) => (
 
@@ -12,14 +15,15 @@ const OrderStatus = ({children}) => (
                   <tbody>
                       <tr>
                         <td colspan="3" width="24" align="center" style="border-collapse:collapse; border-spacing:0; padding-top: 25px; width:24px; text-align:center;">
-                            <img src="https://services.google.com/fh/files/emails/shippment_confirmation_email_arrows.jpg" alt="Checkmark" width="488">
+                            <Image src="https://services.google.com/fh/files/emails/shippment_confirmation_email_arrows.jpg" alt="Checkmark" width="488" />    
+                            
                         </td>
                        </tr>
                        <tr>
-                            <td width="151" dir="ltr" style="border-collapse:collapse;border-spacing:0; color:#444444; font-family:'Roboto', arial; font-size:12px; line-height:16px; text-align:left;    padding-left: 31px; width:151px;padding-right: 11px;padding-bottom:19px;">Ordered<br>Oct 24</td>
-                            <td width="162" dir="ltr" style="border-collapse:collapse;border-spacing:0;color:#444444;font-family:'Roboto', arial;font-size:12px;line-height:16px;text-align:center;width: 162px; padding-bottom:19px;">Shipped<br>Oct 30</td>
+                            <td width="151" dir="ltr" style="border-collapse:collapse;border-spacing:0; color:#444444; font-family:'Roboto', arial; font-size:12px; line-height:16px; text-align:left;    padding-left: 31px; width:151px;padding-right: 11px;padding-bottom:19px;">Ordered<br/>Oct 24</td>
+                            <td width="162" dir="ltr" style="border-collapse:collapse;border-spacing:0;color:#444444;font-family:'Roboto', arial;font-size:12px;line-height:16px;text-align:center;width: 162px; padding-bottom:19px;">Shipped<br/>Oct 30</td>
                             <td width="162" dir="ltr" align="left" style="border-collapse:collapse; border-spacing:0; color:#444444; font-family:'Roboto', arial; font-size:12px; line-height:16px; text-align:right; width:162px;padding-right: 31px;padding-bottom:19px; font-weight: bold;">
-                            Delivered<br>Nov 01
+                            Delivered<br/>Nov 01
                             </td>
                         </tr>
                     </tbody>
@@ -33,43 +37,43 @@ const OrderStatus = ({children}) => (
 <td bgcolor="#ffffff" style=" padding-top: 20px; padding-bottom:25px;   background-color: #ffffff;">
 <div itemscope="" itemtype="http://schema.org/ParcelDelivery">
         <div itemprop="deliveryAddress" itemscope="" itemtype="http://schema.org/PostalAddress">
-        <meta itemprop="name" content="Smiles Davis">
-            <meta itemprop="streetAddress" content="600 Montgomery St">
-            <meta itemprop="addressLocality" content="San" francisco="">
-            <meta itemprop="addressRegion" content="CA">
-            <meta itemprop="addressCountry" content="United States">
-            <meta itemprop="postalCode" content="94111">
+        <meta itemprop="name" content="Smiles Davis"/>
+            <meta itemprop="streetAddress" content="600 Montgomery St"/>
+            <meta itemprop="addressLocality" content="San" francisco=""/>
+            <meta itemprop="addressRegion" content="CA"/>
+            <meta itemprop="addressCountry" content="United States"/>
+            <meta itemprop="postalCode" content="94111"/>
         </div>
         <div itemprop="itemShipped" itemscope="" itemtype="http://schema.org/Product">
-            <meta itemprop="name" content="Google Home Mini (Chalk)">
-            <meta itemprop="image" content="https://lh3.googleusercontent.com/UQdT2kDIPDb65JrhGxh0ViEAe4v-IYH9Ndmo8fGcvyx3dpDq8KxF8wQMKTt0INYQpYjK">
+            <meta itemprop="name" content="Google Home Mini (Chalk)"/>
+            <meta itemprop="image" content="https://lh3.googleusercontent.com/UQdT2kDIPDb65JrhGxh0ViEAe4v-IYH9Ndmo8fGcvyx3dpDq8KxF8wQMKTt0INYQpYjK"/>
         </div>
         <div itemprop="carrier" itemscope="" itemtype="http://schema.org/Organization">
-            <meta itemprop="name" content="FedEx Smartpost">
+            <meta itemprop="name" content="FedEx Smartpost"/>
         </div>
-        <meta itemprop="trackingNumber" content="74890988031574503941">
+        <meta itemprop="trackingNumber" content="74890988031574503941"/>
         <link itemprop="trackingUrl" href="https://www.fedex.com/Tracking?action=track&amp;language=english&amp;cntry_code=us&amp;tracknumbers=74890988031574503941">
         <div itemprop="potentialAction" itemscope="" itemtype="http://schema.org/TrackAction">
             <link itemprop="target" href="https://www.fedex.com/Tracking?action=track&amp;language=english&amp;cntry_code=us&amp;tracknumbers=74890988031574503941">
         </div>
-         <meta itemprop="price" content="$0.00">
+         <meta itemprop="price" content="$0.00"/>
         <link itemprop="hasDeliveryMethod" href="https://schema.org/ParcelService">
         <div itemprop="partOfOrder" itemscope="" itemtype="http://schema.org/Order">
-            <meta itemprop="orderNumber" content="SMLS.6500-5000-0050">
-            <meta itemprop="price" content="$0.00">
-            <meta itemprop="priceCurrency " content="USD">
+            <meta itemprop="orderNumber" content="SMLS.6500-5000-0050"/>
+            <meta itemprop="price" content="$0.00"/>
+            <meta itemprop="priceCurrency " content="USD"/>
             <div itemprop="merchant" itemscope="" itemtype="http://schema.org/Organization">
-            <meta itemprop="name" content="Google Store">
-            <meta itemprop="price" content="$0.00">
+            <meta itemprop="name" content="Google Store"/>
+            <meta itemprop="price" content="$0.00"/>
             <link itemprop="sameAs" href="https://store.google.com/">
             </div>
             <link itemprop="orderStatus" href="https://schema.org/OrderDelivered">
         </div>
     </div>
 	<div itemscope="" itemtype="http://schema.org/Order">
-        <meta itemprop="orderNumber" content="SMLS.6500-5000-0050">
+        <meta itemprop="orderNumber" content="SMLS.6500-5000-0050"/>
             <span itemprop="merchant" itemscope="" itemtype="http://schema.org/Organization"> 
-                <meta itemprop="name" content="Google Store"> 
+                <meta itemprop="name" content="Google Store"/> 
             </span>
 
   <!-- Line Item Order Logic -->
@@ -82,7 +86,7 @@ const OrderStatus = ({children}) => (
                           
                           <table width="100%" align="center" style="-premailer-cellpadding:0; -premailer-cellspacing:0; border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0; text-align:center; width:100%;" cellpadding="0" cellspacing="0">
                   <tbody><tr><td dir="ltr" width="330" style="border-collapse:collapse; border-spacing:0;  padding-bottom:6px; line-height:16px; color:#3C4043; font-family:Roboto, arial; font-size:14px; text-align:left; vertical-align: middle;" itemprop="itemOffered" itemscope="" itemtype="http://schema.org/Product"><span itemprop="name" style="line-height: 20px;">Google Home Mini (Chalk)</span><meta itemprop="image" content="https://lh3.googleusercontent.com/UQdT2kDIPDb65JrhGxh0ViEAe4v-IYH9Ndmo8fGcvyx3dpDq8KxF8wQMKTt0INYQpYjK"></td></tr>
-                          <tr><td dir="ltr" width="330" style="border-collapse:collapse; border-spacing:0;  padding-bottom:12px; line-height:13px; color:#666666; font-family:Roboto, arial; font-size:11px; text-align:left; vertical-align: middle;" itemprop="itemOffered" itemscope="" itemtype="http://schema.org/Product">ID number:<br><span style="word-break: break-all;">6500500050</span><br> </td></tr>
+                          <tr><td dir="ltr" width="330" style="border-collapse:collapse; border-spacing:0;  padding-bottom:12px; line-height:13px; color:#666666; font-family:Roboto, arial; font-size:11px; text-align:left; vertical-align: middle;" itemprop="itemOffered" itemscope="" itemtype="http://schema.org/Product">ID number:<br/><span style="word-break: break-all;">6500500050</span><br/> </td></tr>
 
 
                 </tbody></table></td>

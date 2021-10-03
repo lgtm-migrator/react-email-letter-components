@@ -1,4 +1,4 @@
-import Sections from './Sections/index.js'
+import Sections from './Interior/Sections/index.js'
 
 import Template from './Template/Template.jsx';
 

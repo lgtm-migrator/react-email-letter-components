@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 
 import Title from './Title/Title.jsx'
 import HeadStyles from './HeadStyles/HeadStyles.jsx'
-import ContentLayout from '../Layouts/ContentLayout/ContentLayout.jsx'
+import ContentLayout from '../Interior/Layouts/ContentLayout/ContentLayout.jsx'
 
 
 const Template = () => (

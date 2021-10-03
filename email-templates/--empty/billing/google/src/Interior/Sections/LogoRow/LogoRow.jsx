@@ -1,17 +1,31 @@
 import React from 'react';
 
 import { 
-  ImageLink
+  ImageLink, Logo, 
+//   imageProps
 } from 'react-emails-components-miscellaneous';
+
+const imageProps = {
+    src:"https://www.google.com/images/branding/googleg/2x/googleg_standard_color_32dp.png", 
+    alt:"Google Store", 
+    width:"32", 
+    border:"0",
+}
+
+const linkProps = {
+    href:"https://store.google.com/?utm_source=transactional&utm_campaign=GS100698&utm_medium=email_service&utm_term=storelogo_en-US&utm_content=_100082566_10040889_1572639866037__US__storelogo_en-US", 
+    style:"color: #3267D6; text-decoration: none;", 
+    target:"_blank"   
+}
+
+const props = {...imageProps, ...linkProps}
 
 const LogoRow = ({}) => (
     <table style="-premailer-cellpadding:0; -premailer-cellspacing:0; border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0;" cellpadding="0" cellspacing="0">
         <tr>
             <td width="150" dir="ltr" style="border-collapse:collapse; border-spacing:0; padding:0; padding-top:8px; min-width:150px;">    
 
-                <a href="https://store.google.com/?utm_source=transactional&utm_campaign=GS100698&utm_medium=email_service&utm_term=storelogo_en-US&utm_content=_100082566_10040889_1572639866037__US__storelogo_en-US" style="color: #3267D6; text-decoration: none;" target="_blank">
-                    <img src="https://www.google.com/images/branding/googleg/2x/googleg_standard_color_32dp.png" alt="Google Store" width="32" border="0">
-                </a>
+                <Logo {...props} />
 
             </td>
 
