@@ -12,19 +12,23 @@ const OrderInfo = ({children}) => (
 
 
                 <table bgcolor="#ffffff" width="100%" align="center" style="-premailer-cellpadding:0; -premailer-cellspacing:0; border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0; text-align:center; width: 100%; max-width: 552px; background:#ffffff;  margin: 0 auto; border-top: solid 1px #dddddd; border-left: solid 1px #dddddd; border-right: solid 1px #dddddd;" cellpadding="0" cellspacing="0">
-                <tbody>
-                    <tr>
-						<td style="border-collapse:collapse; border-spacing:0; padding:0; padding-top:28px; color:#666666; font-family:Roboto, arial; font-size:11px; text-align:left; font-weight:bold;vertical-align: top;"><table width="100%" style="-premailer-cellpadding:0; -premailer-cellspacing:0; border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0;" cellpadding="0" cellspacing="0">
-							<tbody><tr>
-							<td width="29" dir="ltr" style="border-collapse:collapse;border-spacing:0; width: 29px;"></td>
-							<td dir="ltr" width="200" style="border-collapse:collapse; border-spacing:0; color:#616161; font-family:'Roboto', arial; font-size:13px; line-height:16px; text-align:center;padding:0;  text-align:left;width: 200px;font-weight:bold;">
-							Ordered
-							</td>
-							<td width="31" dir="ltr" style="border-collapse:collapse;border-spacing:0; width: 31px;"></td>
-							</tr>
-						</tbody></table>
+                	<tbody>
+                    	<tr>
+							<td style="border-collapse:collapse; border-spacing:0; padding:0; padding-top:28px; color:#666666; font-family:Roboto, arial; font-size:11px; text-align:left; font-weight:bold;vertical-align: top;">
+								
+								<table width="100%" style="-premailer-cellpadding:0; -premailer-cellspacing:0; border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0;" cellpadding="0" cellspacing="0">
+									<tbody>
+										<tr>
+											<td width="29" dir="ltr" style="border-collapse:collapse;border-spacing:0; width: 29px;"></td>
+											<td dir="ltr" width="200" style="border-collapse:collapse; border-spacing:0; color:#616161; font-family:'Roboto', arial; font-size:13px; line-height:16px; text-align:center;padding:0;  text-align:left;width: 200px;font-weight:bold;">
+											Ordered
+											</td>
+											<td width="31" dir="ltr" style="border-collapse:collapse;border-spacing:0; width: 31px;"></td>
+										</tr>
+									</tbody>
+								</table>
 						
-			</td>
+							</td>
 
 						<td style="border-collapse:collapse; border-spacing:0; padding:0; padding-top:28px; color:#616161; font-family:Roboto, arial; font-size:13px; text-align:left; font-weight:bold;"><table width="100%" style="-premailer-cellpadding:0; -premailer-cellspacing:0; border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0;" cellpadding="0" cellspacing="0">
 							<tbody><tr>
@@ -81,31 +85,35 @@ const OrderInfo = ({children}) => (
 						<td colspan="2" style="border-collapse:collapse; border-spacing:0; padding:0; padding-bottom:25px; color:#666666; font-family:'Roboto', arial; font-size:11px; line-height:15px; text-align:left;vertical-align: top;padding-top: 4px;">
                             
 							<table width="100%" style="-premailer-cellpadding:0; -premailer-cellspacing:0; border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0;" cellpadding="0" cellspacing="0">
-							<tbody><tr>
-							<td width="32" dir="ltr" style="border-collapse:collapse;border-spacing:0; width: 32px;"></td>
-							<td dir="ltr" width="246" style="border-collapse:collapse; border-spacing:0; color:#666666; font-family:'Roboto', arial; font-size:13px; line-height: 18px; text-align:center;padding:0;  text-align:left;width: 246px;vertical-align: top;">
-							Google LLC<br/>1600 Amphitheatre Parkway<br/>Mountain View<br/>CA<br/>94043<br/>United States
-							</td>
-							<td width="17" dir="ltr" style="border-collapse:collapse;border-spacing:0; width: 17px;"></td>
-							<td dir="ltr" width="247" style="border-collapse:collapse; border-spacing:0; color:#666666; font-family:'Roboto', arial; font-size:13px; line-height: 18px; text-align:center;padding:0;  text-align:left;width: 247px;vertical-align: top;">
-                                Smiles Davis<br/>
-                                600 Montgomery St<br/> san francisco<br/>
-                                CA<br/>
-                                94111<br/>
-                                United States
-							</td>
-							<td width="31" dir="ltr" style="border-collapse:collapse;border-spacing:0; width: 31px;"></td>
-							</tr>
-						</tbody></table>
+								<tbody>
+									<tr>
+										<td width="32" dir="ltr" style="border-collapse:collapse;border-spacing:0; width: 32px;"></td>
+										<td dir="ltr" width="246" style="border-collapse:collapse; border-spacing:0; color:#666666; font-family:'Roboto', arial; font-size:13px; line-height: 18px; text-align:center;padding:0;  text-align:left;width: 246px;vertical-align: top;">
+											Google LLC<br/>1600 Amphitheatre Parkway<br/>Mountain View<br/>CA<br/>94043<br/>United States
+										</td>
+										<td width="17" dir="ltr" style="border-collapse:collapse;border-spacing:0; width: 17px;"></td>
+										<td dir="ltr" width="247" style="border-collapse:collapse; border-spacing:0; color:#666666; font-family:'Roboto', arial; font-size:13px; line-height: 18px; text-align:center;padding:0;  text-align:left;width: 247px;vertical-align: top;">
+											Smiles Davis<br/>
+											600 Montgomery St<br/> san francisco<br/>
+											CA<br/>
+											94111<br/>
+											United States
+										</td>
+										<td width="31" dir="ltr" style="border-collapse:collapse;border-spacing:0; width: 31px;"></td>
+									</tr>
+								</tbody>
+							</table>
 
                         </td>
                       </tr>
-				</tbody></table>
+				</tbody>
+				</table>
 
                 <table align="center" bgcolor="#ffffff" cellpadding="0" cellspacing="0" id="shippingTaxAndTotal" style="-premailer-cellpadding:0; -premailer-cellspacing:0; border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0; text-align:center; width:552px; max-width:552px; background:#ffffff; margin: 0 auto; border-bottom: solid 1px #dddddd; border-left: solid 1px #dddddd; border-right: solid 1px #dddddd;" width="552">
                     <tbody>
                     <tr>
                     <td style="border-collapse:collapse; border-spacing:0; padding:0; text-align:left;vertical-align: middle;padding-top: 22px;">
+
                         <table cellpadding="0" cellspacing="0" style="-premailer-cellpadding:0; -premailer-cellspacing:0; border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0;" width="100%">
                         <tbody>
                             <tr itemprop="priceSpecification" itemscope="" itemtype="http://schema.org/DeliveryChargeSpecification">
@@ -124,7 +132,9 @@ const OrderInfo = ({children}) => (
                             </td>
                             <td dir="ltr" style="border-collapse:collapse;border-spacing:0; width: 17px;" width="17"> </td>
                             <td dir="ltr" style="border-collapse:collapse; border-spacing:0;padding:0;  text-align:left;width: 247px;vertical-align: top;" width="247">
-                                <table cellpadding="0" cellspacing="0" style="-premailer-cellpadding:0; -premailer-cellspacing:0; border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0;" width="100%">
+                                
+								
+								<table cellpadding="0" cellspacing="0" style="-premailer-cellpadding:0; -premailer-cellspacing:0; border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0;" width="100%">
                                 <tbody>
 
                                    

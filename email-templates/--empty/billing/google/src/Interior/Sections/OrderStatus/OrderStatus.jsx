@@ -22,7 +22,8 @@ const OrderStatus = ({children}) => (
                             Delivered<br>Nov 01
                             </td>
                         </tr>
-                </tbody></table>
+                    </tbody>
+                </table>
 
 
                 </td>

@@ -7,7 +7,7 @@ import {
 
 // import { Table, BasicTable } from 'react-email-components-table';
 
-import Menu from '../Menu/Menu.jsx';
+import Menu from '../../Elements/Menu/Menu.jsx';
 
 const Footer = ({}) => (
 

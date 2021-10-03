@@ -1,8 +1,15 @@
+// sections
 import Footer from './Footer/Footer.jsx'
-import Menu from './Menu/Menu.jsx'
-
+// import Header
+import LogoRow from './LogoRow/LogoRow.jsx'
 import OrderInfo from './OrderInfo/OrderInfo.jsx'
+import OrderStatus from './OrderStatus/OrderStatus.jsx'
 
 export default {
-    Footer, Menu, OrderInfo
+
+    //sections
+    Footer, 
+    LogoRow,
+    OrderInfo,
+    OrderStatus
 }
