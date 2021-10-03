@@ -33,6 +33,22 @@ https://github.com/lang-ai/react-emails
 
 https://github.com/mjmlio/mjml
 
+
+-----
+
+examples of components, that can sit in "Elements" folder(re: can be updated, because i'm trying to find a better and easier way to do this type of conversion)
+
+```
+Elements
+- Address
+- callToActionList
+- getPublishLink
+- unsubscribeLink
+- defaultImage
+- Spacer
+- LogoRow
+- TableRow
+
 ---
 
 https://github.com/sparkbox/email-lab
