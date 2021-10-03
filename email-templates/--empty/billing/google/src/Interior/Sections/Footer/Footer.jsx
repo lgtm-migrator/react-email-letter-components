@@ -7,6 +7,7 @@ import {
 
 // import { Table, BasicTable } from 'react-email-components-table';
 
+import Menu from '../Menu/Menu.jsx';
 
 const Footer = ({}) => (
 
@@ -25,13 +26,11 @@ const Footer = ({}) => (
                                     </td>
                                 </tr>
 
-						<tr>
-                          <td class="footer_menu" align="left" style=" text-align: center;">
-                          
-                            !FOOTER_MENU!
+						
+                      
+                            <Menu />    
 
-                          </td>
-						</tr>
+                       
                         <tr>
                             <td colspan="9" dir="ltr" style="margin:0; padding:0;color:#666666; font-family:'Roboto', arial; font-size:12px; line-height:14px; padding-bottom:13px; padding-top:4px;font-weight:bold;font-weight:500;">Google LLC 1600 Amphitheatre Parkway, Mountain View, CA 94043</td>
                         </tr>

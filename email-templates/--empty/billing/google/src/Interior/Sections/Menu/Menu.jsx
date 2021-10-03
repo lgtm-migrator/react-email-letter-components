@@ -4,6 +4,9 @@ import { BasicTable } from 'react-email-components-table';
 
 
 const Menu = ({children}) => (
+
+<tr>
+                          <td class="footer_menu" align="left" style=" text-align: center;"></td>
     <table align="left" style="-premailer-cellpadding:0; -premailer-cellspacing:0; border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0;border-spacing:0; color:#666666;background:#eeeeee;" 
     border="0" cellpadding="0" cellspacing="0" bgcolor="#eeeeee">
     <tbody>
@@ -38,6 +41,9 @@ const Menu = ({children}) => (
         </tr>
     </tbody>
     </table> 
+
+    </td>
+						</tr>
 );
 
 
