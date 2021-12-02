@@ -20,6 +20,10 @@ https://github.com/clocklimited/ReactEmailComponents
 - https://building.lang.ai/how-to-build-emails-with-react-fcf941b125d1
 
 
+
+- https://github.com/pavkout/react-mailkit
+
+
 explore things here: https://gist.github.com/vouchful
 
 
