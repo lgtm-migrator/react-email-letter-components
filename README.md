@@ -21,6 +21,29 @@ https://github.com/clocklimited/ReactEmailComponents
 
 
 
+```bash
+├── xxx
+│   ├── xxx
+│   │   ├── **/*.xxx
+│   ├── xxx
+│   ├── images
+│   ├── xxx
+│   ├── js
+│   │   ├── **/*.js
+│   └── xxx
+├── dist (or build)
+├── 
+├── 
+├── 
+├── 
+├── README.md
+├── package.json
+├── 
+└── .gitignore
+```
+
+
+
 - https://github.com/pavkout/react-mailkit
 
 
